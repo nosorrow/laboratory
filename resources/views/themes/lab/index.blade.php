@@ -130,7 +130,7 @@
 {{--Section Hero--}}
 <section class="bg-center bg-no-repeat bg-cover  bg-blend-multiply
 {{--                bg-[url('/images/hero.jpg')]--}}"
-         style="background-image: linear-gradient(rgba(1,106,121,0.65), rgba(156,204,213,0.7) 100%), url('{{ url('images/hero.jpg') }}');"
+         style="background-image: linear-gradient(rgba(105,125,128,0.89), rgba(135,164,169,0.51) 100%), url('{{ url('images/hero.jpg') }}');"
 >
 {{--    <div id="gradient-hero" class="-z-1 absolute h-full w-full top-0 left-0 bg-linear-to-r from-cyan-500/40 to-blue-500/40"></div>--}}
     <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
