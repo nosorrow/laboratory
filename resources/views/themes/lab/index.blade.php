@@ -128,21 +128,21 @@
     </div>
 </nav>
 {{--Section Hero--}}
-<section class="bg-center bg-no-repeat bg-cover  bg-blend-multiply
+<section class="bg-center bg-no-repeat bg-cover bg-blend-multiply
 {{--                bg-[url('/images/hero.jpg')]--}}"
          style="background-image: linear-gradient(rgba(105,125,128,0.89), rgba(135,164,169,0.51) 100%), url('{{ url('images/hero.jpg') }}');"
 >
 {{--    <div id="gradient-hero" class="-z-1 absolute h-full w-full top-0 left-0 bg-linear-to-r from-cyan-500/40 to-blue-500/40"></div>--}}
     <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
-        <h1
+        <h1 data-aos="fade-up" data-aos-delay="100"
             class="mb-4 text-4xl font-bold tracking-tight leading-none text-white md:text-5xl lg:text-6xl"
         >
             Our Work Is More Than Reaserch
         </h1>
-        <p class="mb-8 text-lg font-normal text-gray-100 lg:text-xl sm:px-16 lg:px-48">
+        <p class="mb-8 text-lg font-normal text-gray-100 lg:text-xl sm:px-16 lg:px-48" data-aos="fade-up" data-aos-delay="300">
             All the medical and laboratory supplies for clinical diagnostics and research laboratories.
         </p>
-        <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+        <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0" data-aos="fade-up" data-aos-delay="600">
             <a href="#"
                class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center
                 text-white rounded-lg bg-cyan-700 hover:bg-cyan-800 focus:ring-4 focus:ring-cyan-300 dark:focus:ring-cyan-800"
