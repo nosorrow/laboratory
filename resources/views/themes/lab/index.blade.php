@@ -134,7 +134,9 @@
 >
 {{--    <div id="gradient-hero" class="-z-1 absolute h-full w-full top-0 left-0 bg-linear-to-r from-cyan-500/40 to-blue-500/40"></div>--}}
     <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
-        <h1 class="mb-4 text-4xl font-bold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
+        <h1
+            class="mb-4 text-4xl font-bold tracking-tight leading-none text-white md:text-5xl lg:text-6xl"
+        >
             Our Work Is More Than Reaserch
         </h1>
         <p class="mb-8 text-lg font-normal text-gray-100 lg:text-xl sm:px-16 lg:px-48">
@@ -174,7 +176,7 @@
     </div>
     <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
         <div class="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
-            <div class="lg:pr-4">
+            <div class="lg:pr-4" data-aos="fade-up" data-aos-delay="100">
                 <div class="lg:max-w-lg">
                     <p class="text-base/7 font-semibold text-teal-600">Loren Ipsun</p>
                     <h1 class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-cyan-800 sm:text-5xl">A better workflow</h1>
@@ -192,7 +194,7 @@
         </div>
         <div class="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div class="lg:pr-4">
-                <div class="max-w-xl text-base/7 text-gray-700 lg:max-w-lg">
+                <div class="max-w-xl text-base/7 text-gray-700 lg:max-w-lg" data-aos="fade-up" data-aos-delay="200">
                     <p>Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id.</p>
                     <p class="mt-8">Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.</p>
                 </div>
@@ -203,7 +205,7 @@
 {{--Services Section--}}
 <section class="bg-white dark:bg-gray-900">
     <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-        <div class="max-w-screen-md mb-8 lg:mb-16">
+        <div class="max-w-screen-md mb-8 lg:mb-16" data-aos="fade-up">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-cyan-800 dark:text-white">
                 Designed for business teams like yours
             </h2>
@@ -212,42 +214,42 @@
             </p>
         </div>
         <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
-            <div>
+            <div data-aos="fade-up" data-aos-delay="100">
                 <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-100 lg:h-12 lg:w-12 dark:bg-teal-900">
                     <i class="fa-solid fa-vial-virus text-lg text-teal-600 dark:text-teal-300"></i>
                 </div>
                 <h3 class="mb-2 text-xl text-cyan-800 font-bold dark:text-white">Precision Lab Solutions</h3>
                 <p class="text-gray-500 dark:text-gray-400">Plan it, create it, launch it. Collaborate seamlessly with all  the organization and hit your marketing goals every month with our marketing plan.</p>
             </div>
-            <div>
+            <div data-aos="fade-up" data-aos-delay="200">
                 <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-100 lg:h-12 lg:w-12 dark:bg-teal-900">
                     <i class="fa-solid fa-flask text-lg text-teal-600 dark:text-teal-300"></i>
                 </div>
                 <h3 class="mb-2 text-xl text-cyan-800 font-bold dark:text-white">Optimal Laboratory Performance</h3>
                 <p class="text-gray-500 dark:text-gray-400">Protect your organization, devices and stay compliant with our structured workflows and custom permissions made for you.</p>
             </div>
-            <div>
+            <div data-aos="fade-up" data-aos-delay="300">
                 <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-100 lg:h-12 lg:w-12 dark:bg-teal-900">
                     <i class="fa-solid fa-microscope text-lg text-teal-600 dark:text-teal-300"></i>
                 </div>
                 <h3 class="mb-2 text-xl text-cyan-800 font-bold dark:text-white">SmartLab Services</h3>
                 <p class="text-gray-500 dark:text-gray-400">Auto-assign tasks, send Slack messages, and much more. Now power up with hundreds of new templates to help you get started.</p>
             </div>
-            <div>
+            <div data-aos="fade-up" data-aos-delay="100">
                 <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-100 lg:h-12 lg:w-12 dark:bg-teal-900">
                     <i class="fa-solid fa-vials text-lg text-teal-600 dark:text-teal-300"></i>
                 </div>
                 <h3 class="mb-2 text-xl text-cyan-800 font-bold dark:text-white">Comprehensive Support</h3>
                 <p class="text-gray-500 dark:text-gray-400">Audit-proof software built for critical financial operations like month-end close and quarterly budgeting.</p>
             </div>
-            <div>
+            <div data-aos="fade-up" data-aos-delay="200">
                 <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-100 lg:h-12 lg:w-12 dark:bg-teal-900">
                     <svg class="w-5 h-5 text-teal-600 lg:w-6 lg:h-6 dark:text-teal-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z"></path></svg>
                 </div>
                 <h3 class="mb-2 text-xl text-cyan-800 font-bold dark:text-white"> Expert Maintenance</h3>
                 <p class="text-gray-500 dark:text-gray-400">Craft beautiful, delightful experiences for both marketing and product with real cross-company collaboration.</p>
             </div>
-            <div>
+            <div data-aos="fade-up" data-aos-delay="300">
                 <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-100 lg:h-12 lg:w-12 dark:bg-teal-900">
                     <svg class="w-5 h-5 text-teal-600 lg:w-6 lg:h-6 dark:text-teal-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"></path></svg>
                 </div>
@@ -259,7 +261,8 @@
 </section>
 {{--GTA Section--}}
 <section class="bg-[#e9f7f8] dark:bg-gray-900">
-    <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+    <div data-aos="zoom-in" data-aos-delay="100"
+        class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
         <img class="w-full rounded-tr-[20%] rounded-bl-[20%] rounded-xl"
             src="{{ url('images/02.jpg') }}" alt="dashboard image"
             style="mask: linear-gradient(90deg, transparent, #54d9af 10%, #00655d 85%, transparent);"
@@ -377,5 +380,15 @@
         </div>
     </div>
 </footer>
+<script>
+    // window.addEventListener('load', () => {
+    //     AOS.init({
+    //         duration: 1000,
+    //         easing: 'ease-in-out',
+    //         once: true,
+    //         mirror: false
+    //     })
+    // });
+</script>
 </body>
 </html>
