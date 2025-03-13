@@ -100,10 +100,10 @@
                 </li>
                 <li>
                 <a href="#" class="rounded-2xl
-                        block py-2 md:py-3 px-3 md:px-5 text-cyan-100 border-b border-gray-100 hover:bg-cyan-500
-                        bg-cyan-700
-                        md:hover:bg-transparent md:border md:border-gray-300 md:hover:text-cyan-700 md:p-0 dark:text-white md:dark:hover:text-cyan-500
-                        dark:hover:bg-gray-700 dark:hover:text-cyan-500 md:dark:hover:bg-transparent dark:border-gray-700 transition duration-200 ease-in-out"
+                        block py-2 md:py-3 px-3 md:px-5 text-cyan-100 border-b border-gray-100 hover:bg-teal-600
+                        bg-teal-500 md:hover:bg-transparent md:border md:border-gray-300 md:hover:text-cyan-700 md:p-0
+                        dark:text-white md:dark:hover:text-cyan-500 dark:hover:bg-gray-700 dark:hover:text-cyan-500
+                        md:dark:hover:bg-transparent dark:border-gray-700 transition duration-200 ease-in-out"
                 >
                         Contact Us
                     </a>
@@ -439,8 +439,9 @@
             </div>
             <button type="submit"
                     class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg
-                           bg-cyan-700 sm:w-fit hover:bg-cyan-800 focus:ring-4 focus:outline-none
-                           focus:ring-cyan-300 dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800"
+                           bg-teal-500 sm:w-fit hover:bg-teal-600 transition duration-300 ease-in-out
+                           focus:ring-4 focus:outline-none
+                           focus:ring-teal-300 dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800"
             >
                 Send message
             </button>
