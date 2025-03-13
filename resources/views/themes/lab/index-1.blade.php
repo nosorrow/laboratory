@@ -156,7 +156,11 @@
                     <p class="max-w-xl mb-4 text-base text-gray-200 md:text-lg">
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam, eaque ipsa quae.
                     </p>
-                    <a href="#" class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
+                    <a href="#"
+                       class="inline-flex justify-center text-gray-900 items-center
+                            py-3 px-5 text-base font-medium text-center rounded-lg border
+                            border-white bg-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400 transition duration-200 ease-in-out"
+                    >
                         Learn more
                     </a>
                 </div>
