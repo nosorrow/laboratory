@@ -21,7 +21,7 @@
         }
         /*== #home Button  display on scroll ==*/
         .home {
-            /*display: none;*/
+            display: none;
             width: 50px;
             height: 50px;
             border-radius: 50%;
@@ -174,7 +174,7 @@
 </nav>
 
 {{--Section Hero--}}
-<div class="relative -z-1">
+<div id="hero" class="relative -z-1">
 {{--    <img src="{{ url('images/hero.jpg') }}" class="absolute inset-0 object-cover w-full h-full" alt="" />--}}
     <div
         class="relative bg-linear-to-b from-hero-start/80 to-hero-end/10 min-h-[700px] bg-blend-multiply"
@@ -538,6 +538,19 @@
     //         mirror: false
     //     })
     // });
+
+    const x = document.getElementById("hero").clientHeight;
+
+    document.addEventListener("DOMContentLoaded", function () {
+        window.addEventListener("scroll", function () {
+            const goHomeButton = document.getElementById("gohome");
+            if (window.scrollY <= x - 45) {
+                goHomeButton.style.display = "none";
+            } else {
+                goHomeButton.style.display = "block";
+            }
+        });
+    });
 </script>
 </body>
 </html>
