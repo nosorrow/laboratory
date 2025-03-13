@@ -406,7 +406,7 @@
             >
             <div class="w-full h-full bg-teal-500 absolute -right-5 top-5 -z-1 rounded-xl"></div>
         </div>
-        <div class="mt-4 md:mt-0">
+        <div class="mt-6 md:mt-0">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
                 Let's create more tools and ideas that brings us together.
             </h2>
@@ -414,10 +414,6 @@
                 Etiam sodales nunc sit amet leo ultrices, quis sagittis tortor tempor. Mauris tristique nulla eu semper tempus.
                 Sed lacinia neque vitae malesuada dignissim. Aliquam efficitur tincidunt justo quis euismod.
             </p>
-            <a href="#" class="inline-flex items-center text-white bg-cyan-700 hover:bg-cyan-800 focus:ring-4 focus:ring-cyan-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-cyan-900">
-                Get started
-                <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-            </a>
         </div>
     </div>
 </section>
