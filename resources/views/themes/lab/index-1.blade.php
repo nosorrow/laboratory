@@ -16,6 +16,9 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     @endif
     <style>
+        html {
+            scroll-behavior: smooth;
+        }
         /*== #home Button  display on scroll ==*/
         .home {
             /*display: none;*/
@@ -60,7 +63,7 @@
 </head>
 <body id="home" class="font-sans antialiased dark:bg-black dark:text-white/50">
 {{--Navigation--}}
-<nav class="bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900">
+<nav class="!z-999 bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
         <a href="https://flowbite.com" class="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="{{ url('images/logo.png') }}" class="h-12" alt="Logo" />
@@ -171,7 +174,7 @@
 </nav>
 
 {{--Section Hero--}}
-<div class="relative">
+<div class="relative -z-1">
 {{--    <img src="{{ url('images/hero.jpg') }}" class="absolute inset-0 object-cover w-full h-full" alt="" />--}}
     <div
         class="relative bg-linear-to-b from-hero-start/80 to-hero-end/10 min-h-[700px] bg-blend-multiply"
@@ -418,7 +421,6 @@
         </div>
     </div>
 </section>
-
 {{--Contact Section--}}
 <section class="bg-white dark:bg-gray-900">
     <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
@@ -452,7 +454,7 @@
 
 {{--Go home--}}
 <div id="gohome" class="home">
-    <a id="gohomelink" href="#home" title="Home">
+    <a id="gohomelink" href="#" title="Home">
         <i class="fas fa-chevron-up"></i>
     </a>
 </div>
