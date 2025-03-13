@@ -36,6 +36,9 @@
     --color-primary-800: #1e40af;
     --color-primary-900: #1e3a8a;
     --color-primary-950: #172554;
+
+    --color-hero-start: rgb(69, 85, 87);
+    --color-hero-end: rgb(135,164,169);
 }
 
 /*
