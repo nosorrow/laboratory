@@ -15,8 +15,50 @@
     @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     @endif
+    <style>
+        /*== #home Button  display on scroll ==*/
+        .home {
+            /*display: none;*/
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            bottom: 75px;
+            right: 20px;
+            opacity: 0.8;
+            position: fixed;
+            z-index: 1111;
+            background-color: #00bba7;
+            animation: pulse 2s infinite;
+        }
+
+        .home a {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translateX(-50%) translateY(-50%);
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            color: #fff;
+            transition: all 0.5s ease-in-out;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(0.9);
+                box-shadow: 0 0 0 0 rgba(31, 204, 157, 0.7);
+            }
+            70% {
+                transform: scale(1);
+                box-shadow: 0 0 0 10px rgba(31, 204, 157, 0.5);
+            }
+            100% {
+                transform: scale(0.9);
+            }
+        }
+    </style>
 </head>
-<body class="font-sans antialiased dark:bg-black dark:text-white/50">
+<body id="home" class="font-sans antialiased dark:bg-black dark:text-white/50">
 {{--Navigation--}}
 <nav class="bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
@@ -129,15 +171,10 @@
 </nav>
 
 {{--Section Hero--}}
-<div class="relative">
-{{--    <img src="{{ url('images/hero.jpg') }}" class="absolute inset-0 object-cover w-full h-full" alt="" />--}}
+<div class="relative isolate">
+    <img src="{{ url('images/hero.jpg') }}" class="absolute inset-0 object-cover w-full h-full" alt="" />
     <div
         class="relative bg-linear-to-b from-hero-start/80 to-hero-end/10 min-h-[700px] bg-blend-multiply"
-        style="background-image: linear-gradient(rgba(105,125,128,0.89), rgba(135,164,169,0.51) 100%), url('{{ url('images/hero-1.jpg') }}');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        "
     >
         <svg class="absolute -bottom-1 text-white" viewBox="0 0 1160 163">
             <path
@@ -376,6 +413,7 @@
         </div>
     </div>
 </section>
+
 {{--Contact Section--}}
 <section class="bg-white dark:bg-gray-900">
     <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
@@ -406,6 +444,14 @@
         </form>
     </div>
 </section>
+
+{{--Go home--}}
+<div id="gohome" class="home">
+    <a id="gohomelink" href="#home" title="Home">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+</div>
+
 {{--Footer--}}
 <footer class="mt-10 p-4 bg-white sm:p-6 dark:bg-gray-800">
     <div class="mx-auto max-w-screen-xl">
