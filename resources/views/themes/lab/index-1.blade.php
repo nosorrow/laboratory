@@ -198,10 +198,11 @@
                     >
                         Our Work Is More Than Reaserch
                     </h1>
-                    <p class="max-w-xl mb-4 text-base text-gray-200 md:text-lg">
+                    <p class="max-w-xl mb-4 text-base text-gray-200 md:text-lg" data-aos="fade-up" data-aos-delay="200">
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam, eaque ipsa quae.
                     </p>
-                    <a href="#"
+                    <a data-aos="fade-up" data-aos-delay="200"
+                        href="#"
                        class="inline-flex justify-center text-gray-900 items-center
                             py-3 px-5 text-base font-medium text-center rounded-lg border
                             border-white bg-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400 transition duration-200 ease-in-out"
@@ -536,12 +537,11 @@
     //     })
     // });
 
-    const x = document.getElementById("hero").clientHeight;
-
     document.addEventListener("DOMContentLoaded", function () {
+        const height = document.getElementById("hero").clientHeight;
         window.addEventListener("scroll", function () {
             const goHomeButton = document.getElementById("gohome");
-            if (window.scrollY <= x - 45) {
+            if (window.scrollY <= height - 45) {
                 goHomeButton.style.display = "none";
             } else {
                 goHomeButton.style.display = "block";
