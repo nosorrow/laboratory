@@ -177,7 +177,7 @@
 <div id="hero" class="relative -z-1">
 {{--    <img src="{{ url('images/hero.jpg') }}" class="absolute inset-0 object-cover w-full h-full" alt="" />--}}
     <div
-        class="relative bg-linear-to-b from-hero-start/80 to-hero-end/10 min-h-[700px] bg-blend-multiply"
+        class="relative bg-linear-to-b from-hero-start/80 to-hero-end/10 sm:min-h-[700px] bg-blend-multiply"
         style="background-image: linear-gradient(rgba(105,125,128,0.89), rgba(135,164,169,0.51) 100%), url('{{ url('images/hero-1.jpg') }}');
             background-size: cover;
             background-position: center;
