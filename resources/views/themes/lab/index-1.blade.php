@@ -61,7 +61,7 @@
         }
     </style>
 </head>
-<body id="home" class="font-sans antialiased dark:bg-black dark:text-white/50">
+<body id="home" class="font-sans antialiased dark:bg-slate-900 dark:text-white/50">
 {{--Navigation--}}
 <nav class="!z-999 bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
@@ -458,7 +458,7 @@
 </div>
 
 {{--Footer--}}
-<footer class="mt-10 p-4 bg-white sm:p-6 dark:bg-gray-800">
+<footer class="mt-10 p-4 bg-gray-50 sm:p-6 dark:bg-gray-800">
     <div class="mx-auto max-w-screen-xl">
         <div class="md:flex md:justify-between">
             <div class="mb-6 md:mb-0">
