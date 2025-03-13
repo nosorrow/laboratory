@@ -127,8 +127,8 @@
         </div>
     </div>
 </nav>
-{{--Section Hero--}}
 
+{{--Section Hero--}}
 <div class="relative">
 {{--    <img src="{{ url('images/hero.jpg') }}" class="absolute inset-0 object-cover w-full h-full" alt="" />--}}
     <div
@@ -222,7 +222,6 @@
     </div>
 </div>
 
-
 {{--Content 1--}}
 <div class="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
     <div class="absolute inset-0 -z-10 overflow-hidden">
@@ -266,58 +265,84 @@
         </div>
     </div>
 </div>
+
 {{--Services Section--}}
-<section class="bg-white dark:bg-gray-900">
+<section class="bg-white dark:bg-gray-900 mx-auto">
     <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-        <div class="max-w-screen-md mb-8 lg:mb-16" data-aos="fade-up">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-cyan-800 dark:text-white">
+        <div class="mx-auto max-w-screen-md mb-8 lg:mb-16" data-aos="fade-up">
+            <h2 class="text-center mb-4 text-4xl tracking-tight font-extrabold text-cyan-800 dark:text-white">
+                <span class="relative inline-block">
+                    <svg viewBox="0 0 52 24" fill="currentColor"
+                         class="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
+                    >
+                      <defs>
+                        <pattern id="fdca20a0-aeb4-4caf-ba1b-4351eee42363" x="0" y="0" width=".135" height=".30">
+                          <circle cx="1" cy="1" r=".7"></circle>
+                        </pattern>
+                      </defs>
+                      <rect fill="url(#fdca20a0-aeb4-4caf-ba1b-4351eee42363)" width="52" height="24"></rect>
+                    </svg>
+                </span>
                 Designed for business teams like yours
             </h2>
-            <p class="text-gray-500 sm:text-xl dark:text-gray-400">
+            <p class="text-center text-gray-500 sm:text-xl dark:text-gray-400">
                 Nunc fringilla leo viverra dignissim viverra. Curabitur varius nulla nec augue porttitor congue. Vivamus tincidunt, nulla in cursus tempus, sem ligula tempus lectus,
             </p>
         </div>
         <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
             <div data-aos="fade-up" data-aos-delay="100">
-                <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-100 lg:h-12 lg:w-12 dark:bg-teal-900">
-                    <i class="fa-solid fa-vial-virus text-lg text-teal-600 dark:text-teal-300"></i>
+                <div class="flex items-center justify-start">
+                    <div class="sm:mr-4 flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-100 lg:h-12 lg:w-12 dark:bg-teal-900">
+                        <i class="fa-solid fa-vial-virus text-lg text-teal-600 dark:text-teal-300"></i>
+                    </div>
+                    <h3 class="mb-2 text-xl text-cyan-800 font-bold dark:text-white">Precision Lab Solutions</h3>
                 </div>
-                <h3 class="mb-2 text-xl text-cyan-800 font-bold dark:text-white">Precision Lab Solutions</h3>
                 <p class="text-gray-500 dark:text-gray-400">Plan it, create it, launch it. Collaborate seamlessly with all  the organization and hit your marketing goals every month with our marketing plan.</p>
             </div>
             <div data-aos="fade-up" data-aos-delay="200">
-                <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-100 lg:h-12 lg:w-12 dark:bg-teal-900">
-                    <i class="fa-solid fa-flask text-lg text-teal-600 dark:text-teal-300"></i>
+                <div class="flex items-center justify-start">
+                    <div
+                        class="sm:mr-4 flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-100 lg:h-12 lg:w-12 dark:bg-teal-900">
+                        <i class="fa-solid fa-flask text-lg text-teal-600 dark:text-teal-300"></i>
+                    </div>
+                    <h3 class="mb-2 text-xl text-cyan-800 font-bold dark:text-white">Optimal Performance</h3>
                 </div>
-                <h3 class="mb-2 text-xl text-cyan-800 font-bold dark:text-white">Optimal Laboratory Performance</h3>
                 <p class="text-gray-500 dark:text-gray-400">Protect your organization, devices and stay compliant with our structured workflows and custom permissions made for you.</p>
             </div>
             <div data-aos="fade-up" data-aos-delay="300">
-                <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-100 lg:h-12 lg:w-12 dark:bg-teal-900">
-                    <i class="fa-solid fa-microscope text-lg text-teal-600 dark:text-teal-300"></i>
+                <div class="flex items-center justify-start">
+                    <div class="sm:mr-4 flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-100 lg:h-12 lg:w-12 dark:bg-teal-900">
+                        <i class="fa-solid fa-microscope text-lg text-teal-600 dark:text-teal-300"></i>
+                    </div>
+                    <h3 class="mb-2 text-xl text-cyan-800 font-bold dark:text-white">SmartLab Services</h3>
                 </div>
-                <h3 class="mb-2 text-xl text-cyan-800 font-bold dark:text-white">SmartLab Services</h3>
                 <p class="text-gray-500 dark:text-gray-400">Auto-assign tasks, send Slack messages, and much more. Now power up with hundreds of new templates to help you get started.</p>
             </div>
             <div data-aos="fade-up" data-aos-delay="100">
-                <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-100 lg:h-12 lg:w-12 dark:bg-teal-900">
-                    <i class="fa-solid fa-vials text-lg text-teal-600 dark:text-teal-300"></i>
+                <div class="flex items-center justify-start">
+                    <div class="sm:mr-4 flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-100 lg:h-12 lg:w-12 dark:bg-teal-900">
+                        <i class="fa-solid fa-vials text-lg text-teal-600 dark:text-teal-300"></i>
+                    </div>
+                    <h3 class="mb-2 text-xl text-cyan-800 font-bold dark:text-white">Comprehensive Support</h3>
                 </div>
-                <h3 class="mb-2 text-xl text-cyan-800 font-bold dark:text-white">Comprehensive Support</h3>
                 <p class="text-gray-500 dark:text-gray-400">Audit-proof software built for critical financial operations like month-end close and quarterly budgeting.</p>
             </div>
             <div data-aos="fade-up" data-aos-delay="200">
-                <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-100 lg:h-12 lg:w-12 dark:bg-teal-900">
-                    <svg class="w-5 h-5 text-teal-600 lg:w-6 lg:h-6 dark:text-teal-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z"></path></svg>
+                <div class="flex items-center justify-start">
+                    <div class="sm:mr-4 flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-100 lg:h-12 lg:w-12 dark:bg-teal-900">
+                        <svg class="w-5 h-5 text-teal-600 lg:w-6 lg:h-6 dark:text-teal-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z"></path></svg>
+                    </div>
+                    <h3 class="mb-2 text-xl text-cyan-800 font-bold dark:text-white"> Expert Maintenance</h3>
                 </div>
-                <h3 class="mb-2 text-xl text-cyan-800 font-bold dark:text-white"> Expert Maintenance</h3>
                 <p class="text-gray-500 dark:text-gray-400">Craft beautiful, delightful experiences for both marketing and product with real cross-company collaboration.</p>
             </div>
             <div data-aos="fade-up" data-aos-delay="300">
-                <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-100 lg:h-12 lg:w-12 dark:bg-teal-900">
-                    <svg class="w-5 h-5 text-teal-600 lg:w-6 lg:h-6 dark:text-teal-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"></path></svg>
+                <div class="flex items-center justify-start">
+                    <div class="sm:mr-4 flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-100 lg:h-12 lg:w-12 dark:bg-teal-900">
+                        <svg class="w-5 h-5 text-teal-600 lg:w-6 lg:h-6 dark:text-teal-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"></path></svg>
+                    </div>
+                    <h3 class="mb-2 text-xl text-cyan-800 font-bold dark:text-white">Operations</h3>
                 </div>
-                <h3 class="mb-2 text-xl text-cyan-800 font-bold dark:text-white">Operations</h3>
                 <p class="text-gray-500 dark:text-gray-400">Keep your company’s lights on with customizable, iterative, and structured workflows built for all efficient teams and individual.</p>
             </div>
         </div>
