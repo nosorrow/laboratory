@@ -318,7 +318,7 @@
             <h2 class="text-center mb-4 text-4xl tracking-tight font-extrabold text-cyan-800 dark:text-white">
                 <span class="relative inline-block">
                     <svg viewBox="0 0 52 24" fill="currentColor"
-                         class="absolute -top-5 left-0 z-0 w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 block"
+                         class="opacity-30 absolute -top-5 left-0 z-0 w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 block"
                     >
                       <defs>
                         <pattern id="fdca20a0-aeb4-4caf-ba1b-4351eee42363" x="0" y="0" width=".135" height=".30">
