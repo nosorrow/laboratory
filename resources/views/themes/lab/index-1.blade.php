@@ -193,7 +193,7 @@
             ></path>
         </svg>
         <svg viewBox="0 0 52 24" fill="currentColor"
-             class="opacity-30 absolute bottom-20 right-0 w-32 text-blue-gray-100 lg:w-32 block"
+             class="hidden opacity-30 absolute bottom-0 right-0 w-32 text-blue-gray-100 lg:w-32 sm:block"
         >
             <defs>
                 <pattern id="fdca20a0-aeb4-4caf-ba1b-4351eee42363" x="0" y="0" width=".135" height=".30">
