@@ -101,7 +101,7 @@
                         About Us</a>
                 </li>
                 <li>
-                <a href="#" class="rounded-2xl
+                <a href="#contact" class="rounded-2xl
                         block py-2 md:py-3 px-3 md:px-5 text-cyan-100 border-b border-gray-100 hover:bg-teal-600
                         bg-teal-500 md:hover:bg-transparent md:border md:border-gray-300 md:hover:text-cyan-700 md:p-0
                         dark:text-white md:dark:hover:text-cyan-500 dark:hover:bg-gray-700 dark:hover:text-cyan-500
@@ -434,8 +434,9 @@
         </div>
     </div>
 </section>
+
 {{--Contact Section--}}
-<section class="bg-white dark:bg-gray-900">
+<section id="contact" class="bg-white dark:bg-gray-900">
     <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-cyan-800 dark:text-white">Contact Us</h2>
         <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
