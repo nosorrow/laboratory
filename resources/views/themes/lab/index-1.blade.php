@@ -62,6 +62,7 @@
     </style>
 </head>
 <body id="home" class="font-sans antialiased dark:bg-slate-900 dark:text-white/50">
+
 {{--Navigation--}}
 <nav class="relative !z-9999 bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
