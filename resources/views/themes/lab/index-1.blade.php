@@ -80,7 +80,7 @@
         .custom-shape-divider-bottom-1741985483 .shape-fill {
             fill: #FFFFFF;
         }
-        
+
     </style>
 </head>
 <body id="home" class="font-sans antialiased dark:bg-slate-900 dark:text-white/50">
@@ -207,18 +207,18 @@
             background-repeat: no-repeat;
         "
     >
-        <div class="custom-shape-divider-bottom-1741985483">
+        <div class="hidden sm:block custom-shape-divider-bottom-1741985483">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                 <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
             </svg>
         </div>
 
-{{--        <svg class="absolute -bottom-1 text-white" viewBox="0 0 1160 163">--}}
-{{--            <path--}}
-{{--                fill="#fff"--}}
-{{--                d="M-164 13L-104 39.7C-44 66 76 120 196 141C316 162 436 152 556 119.7C676 88 796 34 916 13C1036 -8 1156 2 1216 7.7L1276 13V162.5H1216C1156 162.5 1036 162.5 916 162.5C796 162.5 676 162.5 556 162.5C436 162.5 316 162.5 196 162.5C76 162.5 -44 162.5 -104 162.5H-164V13Z"--}}
-{{--            ></path>--}}
-{{--        </svg>--}}
+        <svg class="sm:hidden absolute -bottom-1 text-white" viewBox="0 0 1160 163">
+            <path
+                fill="#fff"
+                d="M-164 13L-104 39.7C-44 66 76 120 196 141C316 162 436 152 556 119.7C676 88 796 34 916 13C1036 -8 1156 2 1216 7.7L1276 13V162.5H1216C1156 162.5 1036 162.5 916 162.5C796 162.5 676 162.5 556 162.5C436 162.5 316 162.5 196 162.5C76 162.5 -44 162.5 -104 162.5H-164V13Z"
+            ></path>
+        </svg>
         <div class="relative px-4 py-16 mx-auto overflow-hidden sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <div class="flex flex-col items-center justify-between xl:flex-row">
                 <div class="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
