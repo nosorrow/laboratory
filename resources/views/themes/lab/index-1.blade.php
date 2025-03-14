@@ -63,7 +63,7 @@
 </head>
 <body id="home" class="font-sans antialiased dark:bg-slate-900 dark:text-white/50">
 {{--Navigation--}}
-<nav class="!z-999 bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900">
+<nav class="relative !z-9999 bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
         <a href="https://flowbite.com" class="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="{{ url('images/logo.png') }}" class="h-12" alt="Logo" />
@@ -174,7 +174,7 @@
 </nav>
 
 {{--Section Hero--}}
-<div id="hero" class="relative -z-1">
+<div id="hero" class="relative">
 {{--    <img src="{{ url('images/hero.jpg') }}" class="absolute inset-0 object-cover w-full h-full" alt="" />--}}
     <div
         class="relative bg-linear-to-b from-hero-start/80 to-hero-end/10 min-h-[400px] sm:min-h-[700px] bg-blend-multiply"
@@ -252,7 +252,10 @@
 {{--                            <div class="mt-4 mb-2 sm:mb-4">--}}
 {{--                                <button--}}
 {{--                                    type="submit"--}}
-{{--                                    class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"--}}
+{{--                                    class="inline-flex items-center justify-center w-full h-12 px-6--}}
+{{--                                        font-medium tracking-wide text-white transition duration-200 rounded shadow-md--}}
+{{--                                         bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline--}}
+{{--                                         focus:outline-none"--}}
 {{--                                >--}}
 {{--                                    Subscribe--}}
 {{--                                </button>--}}
