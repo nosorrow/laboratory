@@ -341,9 +341,11 @@
 
 {{--Services Section--}}
 <section class="relative bg-white dark:bg-gray-900 mx-auto">
-    <div class="absolute top-0 right-0">
-        <img src="{{url('images/shape-4.png')}}" alt="">
-    </div>
+    <div class="absolute top-0 right-0"
+         style="background-image: url('{{ url('images/shape-4.png') }}'); background-position: left; background-repeat: no-repeat;
+            width: 513px; height: 529px;
+        "
+    ></div>
     <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <div class="mx-auto max-w-screen-md mb-8 lg:mb-16" data-aos="fade-up">
             <h2 class="text-center mb-4 text-4xl tracking-tight font-extrabold text-cyan-800 dark:text-white">
