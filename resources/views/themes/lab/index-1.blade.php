@@ -448,11 +448,11 @@
 
 {{--Contact Section--}}
 <section id="contact" class="relative bg-transparent dark:bg-gray-900">
-{{--    <div class="absolute top-0 left-0"--}}
-{{--        style="background-image: url('{{ url('images/shape-3.png') }}'); background-position: left; background-repeat: no-repeat;--}}
-{{--            width: 513px; height: 529px; z-index: -1;--}}
-{{--        "--}}
-{{--    ></div>--}}
+    <div class="absolute top-0 left-0"
+        style="background-image: url('{{ url('images/shape-3.png') }}'); background-position: left; background-repeat: no-repeat;
+            width: 513px; height: 529px; z-index: -1;
+        "
+    ></div>
     <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-cyan-800 dark:text-white">Contact Us</h2>
         <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
