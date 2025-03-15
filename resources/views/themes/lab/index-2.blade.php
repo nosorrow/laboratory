@@ -214,12 +214,12 @@
             <div class="flex flex-col items-center justify-between xl:flex-row">
                 <div class="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
                     <h1 data-aos="fade-up" data-aos-delay="100"
-                        class="mb-8 text-4xl font-bold tracking-tight leading-none text-cyan-800 md:text-5xl lg:text-6xl"
+                        class="mb-8 text-4xl font-bold tracking-tight leading-none text-cyan-900 md:text-5xl lg:text-6xl"
                     >
                         <span class="text-teal-400">Our Work Is</span> More Than Reaserch
                     </h1>
                     <div class="mb-12" data-aos="fade-up" data-aos-delay="300">
-                        <ul class="space-y-2 text-cyan-800 font-medium text-lg">
+                        <ul class="space-y-2 text-cyan-900 font-medium text-xl">
                             <li class="flex items-center"><i class="fa-solid fa-circle-check mr-4 text-lg text-teal-400"></i>
                                 Led by Passionate Experts</li>
                             <li class="flex items-center"><i class="fa-solid fa-circle-check mr-4 text-lg text-teal-400"></i>
