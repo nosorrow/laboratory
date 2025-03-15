@@ -66,12 +66,12 @@
 
 {{--Navigation--}}
 <nav class="py-2 bg-cyan-900 text-white w-full">
-    <div class="flex justify-between max-w-screen-xl mx-auto px-4 text-xs sm:text-base">
+    <div class="flex justify-between max-w-screen-xl mx-auto px-4 text-sm sm:text-base">
         <div>
-            <i class="fa-solid fa-phone-volume mr-2"></i> Call Us +359 02 902-888
+            <i class="fa-solid fa-phone-volume mr-2"></i> +359 02 902-888
         </div>
         <div>
-            <i class="fa-solid fa-clock mr-2"></i> Every day: 9:00am - 6:00pm
+            <i class="fa-solid fa-clock mr-2"></i>9:00am - 6:00pm
         </div>
     </div>
 </nav>
