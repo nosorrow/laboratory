@@ -220,7 +220,7 @@
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam, eaque ipsa quae.
                     </p>
                     <a data-aos="fade-up" data-aos-delay="200"
-                        href="#"
+                        href="#services"
                        class="inline-flex justify-center text-gray-900 items-center
                             py-3 px-5 text-base font-medium text-center rounded-lg border
                             border-white bg-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400 transition duration-200 ease-in-out"
@@ -341,7 +341,7 @@
 </div>
 
 {{--Services Section--}}
-<section class="relative bg-white dark:bg-gray-900 mx-auto">
+<section id="services" class="relative bg-white dark:bg-gray-900 mx-auto">
     <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <div class="mx-auto max-w-screen-md mb-8 lg:mb-16" data-aos="fade-up">
             <h2 class="text-center mb-4 text-4xl tracking-tight font-extrabold text-cyan-800 dark:text-white">

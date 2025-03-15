@@ -230,7 +230,7 @@
                     </div>
                     <div data-aos="fade-up" data-aos-delay="400">
                         <a
-                           href="#"
+                           href="#services"
                            class="rounded-2xl
                         py-2 md:py-3 px-3 md:px-5 text-cyan-100 border-b border-gray-100 hover:bg-teal-600
                         bg-teal-500 md:hover:bg-transparent md:border md:border-gray-300 md:hover:text-cyan-700 md:p-0
@@ -346,7 +346,7 @@
 </div>
 
 {{--Services Section--}}
-<section class="bg-white dark:bg-gray-900 mx-auto">
+<section id="services" class="bg-white dark:bg-gray-900 mx-auto">
     <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <div class="mx-auto max-w-screen-md mb-8 lg:mb-16" data-aos="fade-up">
             <h2 class="text-center mb-4 text-4xl tracking-tight font-extrabold text-cyan-800 dark:text-white">
