@@ -203,11 +203,11 @@
              class="hidden opacity-30 absolute bottom-0 right-0 w-32 text-blue-gray-100 lg:w-32 sm:block"
         >
             <defs>
-                <pattern id="fdca20a0-aeb4-4caf-ba1b-4351eee42363" x="0" y="0" width=".135" height=".30">
+                <pattern id="fdca20a0-aeb4-4caf-ba1b-4351eee42364" x="0" y="0" width=".135" height=".30">
                     <circle cx="1" cy="1" r=".7"></circle>
                 </pattern>
             </defs>
-            <rect fill="url(#fdca20a0-aeb4-4caf-ba1b-4351eee42363)" width="52" height="24"></rect>
+            <rect fill="url(#fdca20a0-aeb4-4caf-ba1b-4351eee42364)" width="52" height="24"></rect>
         </svg>
 
         <div class="relative px-4 py-16 mx-auto overflow-hidden sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -453,7 +453,11 @@
 </section>
 
 {{--Contact Section--}}
-<section id="contact" class="bg-white dark:bg-gray-900">
+<section id="contact" class="relative bg-transparent dark:bg-gray-900">
+    <div class="absolute top-0 left-0 w-1/2 h-1/2 lg:w-full lg:h-full"
+         style="background-image: url('{{ url('images/shape-3.png') }}'); background-position: left; background-repeat: no-repeat; z-index: -1;
+        "
+    ></div>
     <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-cyan-800 dark:text-white">Contact Us</h2>
         <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
