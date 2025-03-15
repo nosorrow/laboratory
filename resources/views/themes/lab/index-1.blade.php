@@ -448,9 +448,8 @@
 
 {{--Contact Section--}}
 <section id="contact" class="relative bg-transparent dark:bg-gray-900">
-    <div class="absolute top-0 left-0"
-        style="background-image: url('{{ url('images/shape-3.png') }}'); background-position: left; background-repeat: no-repeat;
-            width: 513px; height: 529px; z-index: -1;
+    <div class="absolute top-0 left-0 w-full h-full"
+        style="background-image: url('{{ url('images/shape-3.png') }}'); background-position: left; background-repeat: no-repeat; z-index: -1;
         "
     ></div>
     <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
