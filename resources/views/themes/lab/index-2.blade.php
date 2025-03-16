@@ -247,7 +247,7 @@
                         dark:text-white md:dark:hover:text-cyan-500 dark:hover:bg-gray-700 dark:hover:text-cyan-500
                         md:dark:hover:bg-transparent dark:border-gray-700 transition duration-200 ease-in-out"
                         >
-                            Learn more
+                            Our Services
                         </a>
                     </div>
                 </div>

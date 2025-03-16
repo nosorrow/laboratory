@@ -235,7 +235,7 @@
                             py-3 px-5 text-base font-medium text-center rounded-lg border
                             border-white bg-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400 transition duration-200 ease-in-out"
                     >
-                        Learn more
+                        Our Services
                     </a>
                 </div>
 {{--                <div class="w-full max-w-xl xl:px-8 xl:w-5/12">--}}
