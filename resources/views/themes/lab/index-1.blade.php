@@ -318,7 +318,7 @@
         <div class="lg:pt-10 lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div class="lg:pr-4" data-aos="fade-up" data-aos-delay="100">
                 <div class="lg:max-w-lg">
-                    <p class="text-base/7 font-semibold text-teal-600">Loren Ipsun</p>
+                    <p class="sub-heading text-base/7 font-semibold text-teal-600">Loren Ipsun</p>
                     <h1 class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-cyan-800 sm:text-5xl">A better workflow</h1>
                     <p class="mt-6 text-xl/8 text-gray-700">Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at vitae feugiat egestas.</p>
                     <ul class="mt-6 space-y-2 text-cyan-800 font-bold">
@@ -354,6 +354,7 @@
 <section id="services" class="relative bg-white dark:bg-gray-900 mx-auto">
     <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <div class="mx-auto max-w-screen-md mb-8 lg:mb-16" data-aos="fade-up">
+            <p class="sub-heading-center text-base/7 font-semibold text-teal-600 text-center">Services</p>
             <h2 class="text-center mb-4 text-4xl tracking-tight font-extrabold text-cyan-800 dark:text-white">
                 <span class="relative inline-block">
                     <svg viewBox="0 0 52 24" fill="currentColor"
@@ -367,7 +368,7 @@
                       <rect fill="url(#fdca20a0-aeb4-4caf-ba1b-4351eee42363)" width="52" height="24"></rect>
                     </svg>
                 </span>
-                Designed for business teams like yours
+                Always get the Best Results
             </h2>
             <p class="text-center text-gray-500 sm:text-xl dark:text-gray-400">
                 Nunc fringilla leo viverra dignissim viverra. Curabitur varius nulla nec augue porttitor congue. Vivamus tincidunt, nulla in cursus tempus, sem ligula tempus lectus,
