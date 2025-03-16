@@ -57,8 +57,31 @@
   ::file-selector-button {
     border-color: var(--color-gray-200, currentColor);
   }
+    * {
+        --h-border-w: 30px
+    }
 
     button {
         cursor: pointer;
+    }
+
+    .sub-heading-center::after {
+        content: " ";
+        display: block;
+        width: var(--h-border-w);
+        margin: 0 auto;
+        border-style: solid;
+        border-width: 3px 0 0;
+        border-color: #00bba7;
+    }
+
+    .sub-heading::after {
+        content: " ";
+        display: block;
+        width: var(--h-border-w);
+        border-style: solid;
+        border-width: 3px 0 0;
+        border-color: #00bba7;
+        /*padding: 5px 0;*/
     }
 }
