@@ -200,7 +200,7 @@
             background-repeat: no-repeat;
         "
     >
-        <svg class="absolute -bottom-1 text-white" viewBox="0 0 1160 163">
+        <svg class="absolute -bottom-3 text-white" viewBox="0 0 1160 163">
             <path
                 fill="#fff"
                 d="M-164 13L-104 39.7C-44 66 76 120 196 141C316 162 436 152 556 119.7C676 88 796 34 916 13C1036 -8 1156 2 1216 7.7L1276 13V162.5H1216C1156 162.5 1036 162.5 916 162.5C796 162.5 676 162.5 556 162.5C436 162.5 316 162.5 196 162.5C76 162.5 -44 162.5 -104 162.5H-164V13Z"
@@ -300,7 +300,7 @@
 </div>
 
 {{--Content 1--}}
-<div class="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
+<div class="-z-999 -mt-10 relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
     <div class="absolute inset-0 -z-10 overflow-hidden">
         <svg class="absolute top-0 left-[max(50%,25rem)] h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]" aria-hidden="true">
             <defs>
