@@ -351,7 +351,7 @@
 </div>
 
 {{--Services Section--}}
-<section id="services" class="relative bg-white dark:bg-gray-900 mx-auto">
+<section id="services" class="relative bg-linear-to-b from-gray-50 to-white dark:bg-gray-900 mx-auto">
     <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <div class="mx-auto max-w-screen-md mb-8 lg:mb-16" data-aos="fade-up">
             <p class="sub-heading-center text-base/7 font-semibold text-teal-600 text-center">Services</p>
