@@ -190,14 +190,15 @@
 
 {{--Section Hero--}}
 <div id="hero" class="relative">
-{{--    <img src="{{ url('images/hero.jpg') }}" class="absolute inset-0 object-cover w-full h-full" alt="" />--}}
+    <img src="{{ url('images/hero-1-2-3.jpg') }}" class="absolute inset-0 object-cover w-full h-full" alt="" />
     <div
-        class="relative bg-linear-to-b from-hero-start/80 to-hero-end/10 min-h-[400px] sm:min-h-[700px] bg-blend-multiply"
-        style="background-image: url('{{ url('images/hero-1-2.jpg') }}');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        "
+        class="relative bg-linear-to-r from-amber-50 sm:from-10% via-white sm:via-20% to-transparent sm:to-80%
+                min-h-[400px] sm:min-h-[700px] bg-blend-multiply"
+{{--        style="background-image: url('{{ url('images/hero-1-2.jpg') }}');--}}
+{{--            background-size: cover;--}}
+{{--            background-position: center;--}}
+{{--            background-repeat: no-repeat;--}}
+{{--        "--}}
     >
         <div class="absolute -bottom-1 text-white z-2">
             <img decoding="async"
@@ -241,11 +242,11 @@
                     <div data-aos="fade-up" data-aos-delay="400">
                         <a
                            href="#services"
-                           class="rounded-2xl
-                        py-2 md:py-3 px-3 md:px-5 text-cyan-100 border-b border-gray-100 hover:bg-teal-600
-                        bg-teal-500 md:hover:bg-transparent md:border md:border-gray-300 md:hover:text-cyan-700 md:p-0
-                        dark:text-white md:dark:hover:text-cyan-500 dark:hover:bg-gray-700 dark:hover:text-cyan-500
-                        md:dark:hover:bg-transparent dark:border-gray-700 transition duration-200 ease-in-out"
+                           class="rounded-2xl py-3 md:py-4 px-4 md:px-6 text-cyan-100 border-b border-gray-100
+                                hover:bg-teal-600 bg-teal-500 md:hover:bg-transparent md:border md:border-gray-300
+                                md:hover:text-cyan-700 md:p-0 dark:text-white md:dark:hover:text-cyan-500
+                                dark:hover:bg-gray-700 dark:hover:text-cyan-500 md:dark:hover:bg-transparent
+                                dark:border-gray-700 transition duration-200 ease-in-out"
                         >
                             Our Services
                         </a>
