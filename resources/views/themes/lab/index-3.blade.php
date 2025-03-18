@@ -63,6 +63,7 @@
     </style>
 </head>
 <body id="home" class="font-sans antialiased dark:bg-slate-900 dark:text-white/50">
+
 {{--Navigation--}}
 <nav class="py-2 bg-cyan-950 text-white w-full">
     <div class="flex justify-between max-w-screen-xl mx-auto px-4 text-[13px]">
@@ -114,12 +115,12 @@
                         About Us</a>
                 </li>
                 <li>
-                    <a href="#contact" class="rounded-2xl
+                <a href="#contact" class="rounded-2xl
                         block py-2 md:py-3 px-3 md:px-5 text-cyan-100 border-b border-gray-100 hover:bg-teal-600
                         bg-teal-500 md:hover:bg-transparent md:border md:border-gray-300 md:hover:text-cyan-700 md:p-0
                         dark:text-white md:dark:hover:text-cyan-500 dark:hover:bg-gray-700 dark:hover:text-cyan-500
                         md:dark:hover:bg-transparent dark:border-gray-700 transition duration-200 ease-in-out"
-                    >
+                >
                         Contact Us
                     </a>
                 </li>
@@ -183,67 +184,53 @@
 
 {{--Section Hero--}}
 <div id="hero" class="relative">
-    <img src="{{ url('images/hero-1-2-3.jpg') }}" class="absolute inset-0 object-cover w-full h-full" alt="" />
+{{--    <img src="{{ url('images/hero.jpg') }}" class="absolute inset-0 object-cover w-full h-full" alt="" />--}}
     <div
-        class="relative bg-linear-to-r from-amber-50 sm:from-10% via-white sm:via-20% to-transparent sm:to-80%
-                min-h-[400px] sm:min-h-[700px] bg-blend-multiply"
-{{--        style="background-image: url('{{ url('images/hero-1-2.jpg') }}');--}}
-{{--            background-size: cover;--}}
-{{--            background-position: center;--}}
-{{--            background-repeat: no-repeat;--}}
-{{--        "--}}
+        class="relative bg-linear-to-b from-hero-start/80 to-hero-end/10 min-h-[400px] sm:min-h-[700px] bg-blend-multiply"
+{{--        style="background-image: linear-gradient(rgba(105,125,128,0.89), rgba(135,164,169,0.51) 100%), url('{{ url('images/hero-1.jpg') }}');--}}
+        style="background-image: linear-gradient(90deg, rgba(10,37,45,0.89), rgba(255,255,255,0) 100%), url('{{ url('images/hero-1-2-3.jpg') }}');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        "
     >
-        <div class="absolute -bottom-1 text-white z-2">
-            <img decoding="async"
-                 src="{{url('images/wave.png')}}"
-                 alt="bt_bb_section_bottom_section_coverage_image"></div>
-{{--        <svg class="absolute -bottom-1 text-white" viewBox="0 0 1160 163">--}}
-{{--            <path--}}
-{{--                fill="#fff"--}}
-{{--                d="M-164 13L-104 39.7C-44 66 76 120 196 141C316 162 436 152 556 119.7C676 88 796 34 916 13C1036 -8 1156 2 1216 7.7L1276 13V162.5H1216C1156 162.5 1036 162.5 916 162.5C796 162.5 676 162.5 556 162.5C436 162.5 316 162.5 196 162.5C76 162.5 -44 162.5 -104 162.5H-164V13Z"--}}
-{{--            ></path>--}}
-{{--        </svg>--}}
-        <svg viewBox="0 0 52 24" fill="currentColor"
-             class="hidden opacity-30 absolute bottom-0 right-0 w-32 text-blue-gray-100 lg:w-32 sm:block"
-        >
-            <defs>
-                <pattern id="fdca20a0-aeb4-4caf-ba1b-4351eee42364" x="0" y="0" width=".135" height=".30">
-                    <circle cx="1" cy="1" r=".7"></circle>
-                </pattern>
-            </defs>
-            <rect fill="url(#fdca20a0-aeb4-4caf-ba1b-4351eee42364)" width="52" height="24"></rect>
+        <svg class="absolute -bottom-1 text-white" viewBox="0 0 1160 163">
+            <path
+                fill="#fff"
+                d="M-164 13L-104 39.7C-44 66 76 120 196 141C316 162 436 152 556 119.7C676 88 796 34 916 13C1036 -8 1156 2 1216 7.7L1276 13V162.5H1216C1156 162.5 1036 162.5 916 162.5C796 162.5 676 162.5 556 162.5C436 162.5 316 162.5 196 162.5C76 162.5 -44 162.5 -104 162.5H-164V13Z"
+            ></path>
         </svg>
-
+        <div class="hidden sm:block">
+            <svg viewBox="0 0 52 24" fill="currentColor"
+                 class="opacity-30 absolute bottom-0 right-0 w-32 text-blue-gray-100 lg:w-32 sm:block"
+            >
+                <defs>
+                    <pattern id="fdca20a0-aeb4-4caf-ba1b-4351eee42364" x="0" y="0" width=".135" height=".30">
+                        <circle cx="1" cy="1" r=".7"></circle>
+                    </pattern>
+                </defs>
+                <rect fill="url(#fdca20a0-aeb4-4caf-ba1b-4351eee42364)" width="52" height="24"></rect>
+            </svg>
+        </div>
         <div class="relative px-4 py-16 mx-auto overflow-hidden sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <div class="flex flex-col items-center justify-between xl:flex-row">
                 <div class="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
                     <h1 data-aos="fade-up" data-aos-delay="100"
-                        class="mb-8 text-4xl font-bold tracking-tight leading-none text-cyan-900 md:text-5xl lg:text-6xl"
+                        class="mb-4 text-4xl font-bold tracking-tight leading-none text-white md:text-5xl lg:text-6xl"
                     >
                         <span class="text-teal-400">Our Work Is</span> More Than Reaserch
                     </h1>
-                    <div class="mb-12" data-aos="fade-up" data-aos-delay="300">
-                        <ul class="space-y-2 text-cyan-900 font-medium text-xl">
-                            <li class="flex items-center"><i class="fa-solid fa-circle-check mr-4 text-lg text-teal-400"></i>
-                                Led by Passionate Experts</li>
-                            <li class="flex items-center"><i class="fa-solid fa-circle-check mr-4 text-lg text-teal-400"></i>
-                                Affordable Health Packages</li>
-                            <li class="flex items-center"><i class="fa-solid fa-circle-check mr-4 text-lg text-teal-400"></i>
-                                Safe diagnoses and effective therapies</li>
-                        </ul>
-                    </div>
-                    <div data-aos="fade-up" data-aos-delay="400">
-                        <a
-                           href="#services"
-                           class="rounded-2xl py-3 md:py-4 px-4 md:px-6 text-cyan-100 border-b border-gray-100
-                                hover:bg-teal-600 bg-teal-500 md:hover:bg-transparent md:border md:border-gray-300
-                                md:hover:text-cyan-700 md:p-0 dark:text-white md:dark:hover:text-cyan-500
-                                dark:hover:bg-gray-700 dark:hover:text-cyan-500 md:dark:hover:bg-transparent
-                                dark:border-gray-700 transition duration-200 ease-in-out"
-                        >
-                            Our Services
-                        </a>
-                    </div>
+                    <p class="max-w-xl mb-4 text-base text-gray-200 md:text-lg" data-aos="fade-up" data-aos-delay="200">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam, eaque ipsa quae.
+                    </p>
+                    <a data-aos="fade-up" data-aos-delay="200"
+                        href="#services"
+                       class="inline-flex justify-center text-gray-900 items-center
+                            py-3 px-5 text-base font-medium text-center rounded-lg border
+                            border-white bg-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400 transition duration-200 ease-in-out"
+                    >
+                        Our Services
+                    </a>
                 </div>
 {{--                <div class="w-full max-w-xl xl:px-8 xl:w-5/12">--}}
 {{--                    <div class="bg-white rounded shadow-2xl p-7 sm:p-10">--}}
@@ -307,7 +294,7 @@
 </div>
 
 {{--Content 1--}}
-<div class="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
+<div class="-z-999 -mt-10 relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
     <div class="absolute inset-0 -z-10 overflow-hidden">
         <svg class="absolute top-0 left-[max(50%,25rem)] h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]" aria-hidden="true">
             <defs>
@@ -328,6 +315,14 @@
                     <p class="sub-heading text-base/7 font-semibold text-teal-600">Loren Ipsun</p>
                     <h1 class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-cyan-800 sm:text-5xl">A better workflow</h1>
                     <p class="mt-6 text-xl/8 text-gray-700">Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at vitae feugiat egestas.</p>
+                    <ul class="mt-6 space-y-2 text-cyan-800 font-bold">
+                        <li><i class="fa-solid fa-circle-check mr-2 text-lg text-teal-500"></i>
+                            Led by Passionate Experts</li>
+                        <li><i class="fa-solid fa-circle-check mr-2 text-lg text-teal-500"></i>
+                            Affordable Health Packages</li>
+                        <li><i class="fa-solid fa-circle-check mr-2 text-lg text-teal-500"></i>
+                            Safe diagnoses and effective therapies</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -460,7 +455,7 @@
 {{--Contact Section--}}
 <section id="contact" class="relative bg-transparent dark:bg-gray-900">
     <div class="absolute top-0 left-0 w-1/2 h-1/2 lg:w-full lg:h-full"
-         style="background-image: url('{{ url('images/shape-3.png') }}'); background-position: left; background-repeat: no-repeat; z-index: -1;
+        style="background-image: url('{{ url('images/shape-3.png') }}'); background-position: left; background-repeat: no-repeat; z-index: -1;
         "
     ></div>
     <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">

@@ -65,7 +65,7 @@
 <body id="home" class="font-sans antialiased dark:bg-slate-900 dark:text-white/50">
 
 {{--Navigation--}}
-<nav class="py-2 bg-cyan-900 text-white w-full">
+<nav class="py-2 bg-cyan-950 text-white w-full">
     <div class="flex justify-between max-w-screen-xl mx-auto px-4 text-[13px]">
         <div>
             <i class="fa-solid fa-phone-volume mr-2 text-teal-400"></i><span class="hidden sm:inline-block">Call Us:</span> +359 02 902-888
@@ -115,12 +115,12 @@
                         About Us</a>
                 </li>
                 <li>
-                <a href="#contact" class="rounded-2xl
+                    <a href="#contact" class="rounded-2xl
                         block py-2 md:py-3 px-3 md:px-5 text-cyan-100 border-b border-gray-100 hover:bg-teal-600
                         bg-teal-500 md:hover:bg-transparent md:border md:border-gray-300 md:hover:text-cyan-700 md:p-0
                         dark:text-white md:dark:hover:text-cyan-500 dark:hover:bg-gray-700 dark:hover:text-cyan-500
                         md:dark:hover:bg-transparent dark:border-gray-700 transition duration-200 ease-in-out"
-                >
+                    >
                         Contact Us
                     </a>
                 </li>
@@ -129,7 +129,7 @@
     </div>
     <div id="mega-menu-full-cta-dropdown"
          class="hidden absolute t-0 right-0 left-0 bg-white border-gray-200 shadow-xs border-y dark:bg-gray-800 dark:border-gray-600">
-        <div class="grid max-w-screen-xl px-4 py-5 mx-auto text-sm text-cyan-800 dark:text-cyan-400 md:grid-cols-3 md:px-6">
+        <div class="grid max-w-screen-xl px-4 py-5 mx-auto text-base font-medium text-cyan-900 dark:text-cyan-400 md:grid-cols-3 md:px-6">
             <ul class="space-y-4 sm:mb-4 md:mb-0" aria-labelledby="mega-menu-full-cta-button">
                 <li>
                     <a href="#" class="hover:underline hover:text-cyan-600 dark:hover:text-cyan-500">
@@ -146,11 +146,7 @@
                         Marketing CRM
                     </a>
                 </li>
-                <li>
-                    <a href="#" class="hover:underline hover:text-cyan-600 dark:hover:text-cyan-500">
-                        Online Stores
-                    </a>
-                </li>
+
             </ul>
             <ul class="hidden mb-4 space-y-4 md:mb-0 sm:block">
                 <li>
@@ -168,23 +164,20 @@
                         License
                     </a>
                 </li>
+
+            </ul>
+            <ul class="space-y-4 sm:mb-4 md:mb-0" aria-labelledby="mega-menu-full-cta-button">
                 <li>
                     <a href="#" class="hover:underline hover:text-cyan-600 dark:hover:text-cyan-500">
                         Resources
                     </a>
                 </li>
+                <li>
+                    <a href="#" class="hover:underline hover:text-cyan-600 dark:hover:text-cyan-500">
+                        Online Stores
+                    </a>
+                </li>
             </ul>
-            <div class="mt-4 md:mt-0">
-                <h2 class="mb-2 font-semibold text-cyan-800 dark:text-white">Our brands</h2>
-                <p class="mb-2 text-cyan-800 dark:text-cyan-400">At Flowbite, we have a portfolio of brands that cater to a variety of preferences.</p>
-                <a href="#" class="inline-flex items-center text-sm font-medium text-blue-600 hover:underline hover:text-cyan-600 dark:text-blue-500 dark:hover:text-cyan-700">
-                    Explore our brands
-                    <span class="sr-only">Explore our brands </span>
-                    <svg class="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                    </svg>
-                </a>
-            </div>
         </div>
     </div>
 </nav>
