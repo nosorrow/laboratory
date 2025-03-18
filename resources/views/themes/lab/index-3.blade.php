@@ -81,10 +81,16 @@
             <img src="{{ url('images/logo.png') }}" class="h-12" alt="Logo" />
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
         </a>
-        <button data-collapse-toggle="mega-menu-full-cta" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-cyan-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-cyan-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mega-menu-full-cta" aria-expanded="false">
+        <button
+                data-collapse-toggle="mega-menu-full-cta"
+                type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-cyan-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-cyan-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mega-menu-full-cta" aria-expanded="false">
             <span class="sr-only">Open main menu</span>
-            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <svg id="hamburger-icon" class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+            </svg>
+            <!-- Икона за затваряне (скрита по подразбиране) -->
+            <svg id="close-icon" class="w-5 h-5 hidden" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 12 12M1 13 13 1"/>
             </svg>
         </button>
         <div id="mega-menu-full-cta" class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
@@ -98,7 +104,8 @@
                         Home-2</a>
                 </li>
                 <li>
-                    <button id="mega-menu-full-cta-dropdown-button" data-collapse-toggle="mega-menu-full-cta-dropdown" data-dropdown-placement="bottom"
+                    <button id="mega-menu-full-cta-dropdown-button"
+{{--                            data-collapse-toggle="mega-menu-full-cta-dropdown" data-dropdown-placement="bottom"--}}
                             class="flex items-center justify-between w-full py-2 md:py-3 px-3 font-medium text-cyan-800 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-cyan-600 md:p-0 dark:text-white md:dark:hover:text-cyan-500 dark:hover:bg-gray-700 dark:hover:text-cyan-500 md:dark:hover:bg-transparent dark:border-gray-700">
                         Services
                         <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
@@ -575,6 +582,25 @@
     //     })
     // });
 
+    document.addEventListener('DOMContentLoaded', function() {
+        const toggleButton = document.querySelector('[data-collapse-toggle="mega-menu-full-cta"]');
+        const hamburgerIcon = document.getElementById('hamburger-icon');
+        const closeIcon = document.getElementById('close-icon');
+
+        toggleButton.addEventListener('click', function() {
+            const isExpanded = toggleButton.getAttribute('aria-expanded') === 'true';
+
+            // Превключване на иконите
+            if (isExpanded) {
+                hamburgerIcon.classList.remove('hidden');
+                closeIcon.classList.add('hidden');
+            } else {
+                hamburgerIcon.classList.add('hidden');
+                closeIcon.classList.remove('hidden');
+            }
+        });
+    });
+
     document.addEventListener("DOMContentLoaded", function () {
         const height = document.getElementById("hero").clientHeight;
         window.addEventListener("scroll", function () {
@@ -585,7 +611,41 @@
                 goHomeButton.style.display = "block";
             }
         });
+
+        document.addEventListener('click', function(event) {
+            const megaMenu = document.getElementById('mega-menu-full-cta-dropdown');
+            const megaMenuButton = document.getElementById('mega-menu-full-cta-dropdown-button');
+
+            // Проверяваме дали кликнатият елемент е извън менюто и бутона
+            if (!megaMenu.contains(event.target) && !megaMenuButton.contains(event.target)) {
+                megaMenu.classList.add('hidden');
+                megaMenuButton.setAttribute('aria-expanded', 'false'); // Добавяме aria-expanded="false"
+            }
+        });
+
+        document.getElementById('mega-menu-full-cta-dropdown-button').addEventListener('click', function(event) {
+            const megaMenu = document.getElementById('mega-menu-full-cta-dropdown');
+            const megaMenuButton = document.getElementById('mega-menu-full-cta-dropdown-button');
+
+            const isExpanded = megaMenuButton.getAttribute('aria-expanded') === 'true';
+
+            // Ако менюто е скрито, го показваме и задаваме aria-expanded="true"
+            if (megaMenu.classList.contains('hidden')) {
+                megaMenu.classList.remove('hidden');
+                megaMenuButton.setAttribute('aria-expanded', 'true');
+            } else {
+                // Ако менюто е видимо, го скриваме и задаваме aria-expanded="false"
+                megaMenu.classList.add('hidden');
+                megaMenuButton.setAttribute('aria-expanded', 'false');
+            }
+
+            // Спираме разпространяването на събитието, за да предотвратим повторното задействане
+            event.stopPropagation();
+        });
+
     });
+
+
 </script>
 </body>
 </html>
