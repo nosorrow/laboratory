@@ -184,14 +184,16 @@
 
 {{--Section Hero--}}
 <div id="hero" class="relative">
-{{--    <img src="{{ url('images/hero.jpg') }}" class="absolute inset-0 object-cover w-full h-full" alt="" />--}}
+    <img src="{{ url('images/hero-1-2-3.jpg') }}" class="absolute inset-0 object-cover w-full h-full" alt="" />
     <div
-        class="relative bg-linear-to-b from-hero-start/80 to-hero-end/10 min-h-[400px] sm:min-h-[700px] bg-blend-multiply"
-        style="background-image: linear-gradient(rgba(105,125,128,0.89), rgba(135,164,169,0.51) 100%), url('{{ url('images/hero-1.jpg') }}');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        "
+        class="relative bg-linear-to-r from-teal-600/70 sm:from-10% via-teal-500/50 sm:via-20% to-transparent sm:to-80%
+               min-h-[400px] sm:min-h-[700px] bg-blend-multiply"
+{{--        style="background-image: linear-gradient(rgba(105,125,128,0.89), rgba(135,164,169,0.51) 100%), url('{{ url('images/hero-1.jpg') }}');--}}
+{{--        style="background-image: linear-gradient(90deg, rgba(70,90,93,0.89), rgba(135,164,169,0.51) 100%), url('{{ url('images/hero.jpg') }}');--}}
+{{--            background-size: cover;--}}
+{{--            background-position: center;--}}
+{{--            background-repeat: no-repeat;--}}
+{{--        "--}}
     >
         <svg class="absolute -bottom-1 text-white" viewBox="0 0 1160 163">
             <path
@@ -217,7 +219,7 @@
                     <h1 data-aos="fade-up" data-aos-delay="100"
                         class="mb-4 text-4xl font-bold tracking-tight leading-none text-white md:text-5xl lg:text-6xl"
                     >
-                        Our Work Is More Than Reaserch
+                        <span class="text-cyan-950">Our Work Is</span> More Than Reaserch
                     </h1>
                     <p class="max-w-xl mb-4 text-base text-gray-200 md:text-lg" data-aos="fade-up" data-aos-delay="200">
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam, eaque ipsa quae.
