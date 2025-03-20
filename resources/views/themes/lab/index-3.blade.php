@@ -206,9 +206,9 @@
 {{--        style="background-image: linear-gradient(rgba(105,125,128,0.89), rgba(135,164,169,0.51) 100%), url('{{ url('images/hero-1.jpg') }}');--}}
 {{--        style="background-image: linear-gradient(90deg, rgba(10,37,45,0.89), rgba(255,255,255,0) 100%), url('{{ url('images/hero-1-2-3.jpg') }}');--}}
         style="background-image: linear-gradient(120deg, var(--gradient-fade) 45%, rgba(5,51,69,0.5)), url('{{ url('images/hero-1-2-3.jpg') }}');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
         "
     >
         <svg class="absolute -bottom-1 text-white" viewBox="0 0 1160 163">
@@ -235,7 +235,7 @@
                     <h1 data-aos="fade-up" data-aos-delay="100"
                         class="mb-4 text-4xl font-bold tracking-tight leading-none text-white md:text-5xl lg:text-6xl"
                     >
-                        <span class="text-rose-600">Our Work Is</span> More Than Reaserch
+                        <span class="text-rose-500">Our Work Is</span> More Than Reaserch
                     </h1>
                     <p class="max-w-xl mb-4 text-base text-gray-200 md:text-lg" data-aos="fade-up" data-aos-delay="200">
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam, eaque ipsa quae.
