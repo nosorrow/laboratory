@@ -16,9 +16,15 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     @endif
     <style>
+        :root {
+            /*--color: #426877;*/
+            --color: #053345;
+            --gradient-fade: rgb(from var(--color) r g b / 0.75);
+        }
         html {
             scroll-behavior: smooth;
         }
+
         /*== #home Button  display on scroll ==*/
         .home {
             display: none;
@@ -83,7 +89,7 @@
         </a>
         <button
                 data-collapse-toggle="mega-menu-full-cta"
-                type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-cyan-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-cyan-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mega-menu-full-cta" aria-expanded="false">
+                type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-cyan-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none dark:text-cyan-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mega-menu-full-cta" aria-expanded="false">
             <span class="sr-only">Open main menu</span>
             <svg id="hamburger-icon" class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
@@ -122,9 +128,10 @@
                         About Us</a>
                 </li>
                 <li>
-                <a href="#contact" class="rounded-2xl
-                        block py-2 md:py-3 px-3 md:px-5 text-cyan-100 border-b border-gray-100 hover:bg-teal-600
-                        bg-teal-500 md:hover:bg-transparent md:border md:border-gray-300 md:hover:text-cyan-700 md:p-0
+                <a href="#contact"
+                   class="rounded-2xl block py-2 md:py-3 px-3 md:px-5 text-cyan-100 border-b
+                        border-gray-100 hover:bg-teal-600 bg-teal-500 md:hover:bg-transparent
+                        md:border md:border-gray-300 md:hover:text-cyan-700 md:p-0
                         dark:text-white md:dark:hover:text-cyan-500 dark:hover:bg-gray-700 dark:hover:text-cyan-500
                         md:dark:hover:bg-transparent dark:border-gray-700 transition duration-200 ease-in-out"
                 >
@@ -193,9 +200,12 @@
 <div id="hero" class="relative">
 {{--    <img src="{{ url('images/hero.jpg') }}" class="absolute inset-0 object-cover w-full h-full" alt="" />--}}
     <div
-        class="relative bg-linear-to-b from-hero-start/80 to-hero-end/10 min-h-[400px] sm:min-h-[700px] bg-blend-multiply"
+        class="relative min-h-[400px] sm:min-h-[700px]
+{{--                bg-blend-multiply--}}
+        "
 {{--        style="background-image: linear-gradient(rgba(105,125,128,0.89), rgba(135,164,169,0.51) 100%), url('{{ url('images/hero-1.jpg') }}');--}}
-        style="background-image: linear-gradient(90deg, rgba(10,37,45,0.89), rgba(255,255,255,0) 100%), url('{{ url('images/hero-1-2-3.jpg') }}');
+{{--        style="background-image: linear-gradient(90deg, rgba(10,37,45,0.89), rgba(255,255,255,0) 100%), url('{{ url('images/hero-1-2-3.jpg') }}');--}}
+        style="background-image: linear-gradient(120deg, var(--gradient-fade) 45%, rgba(5,51,69,0.5)), url('{{ url('images/hero-1-2-3.jpg') }}');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
