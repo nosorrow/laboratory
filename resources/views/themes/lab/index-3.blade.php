@@ -235,7 +235,7 @@
                     <h1 data-aos="fade-up" data-aos-delay="100"
                         class="mb-4 text-4xl font-bold tracking-tight leading-none text-white md:text-5xl lg:text-6xl"
                     >
-                        <span class="text-teal-400">Our Work Is</span> More Than Reaserch
+                        <span class="text-rose-600">Our Work Is</span> More Than Reaserch
                     </h1>
                     <p class="max-w-xl mb-4 text-base text-gray-200 md:text-lg" data-aos="fade-up" data-aos-delay="200">
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam, eaque ipsa quae.
@@ -329,7 +329,7 @@
         <div class="lg:pt-10 lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div class="lg:pr-4" data-aos="fade-up" data-aos-delay="100">
                 <div class="lg:max-w-lg">
-                    <p class="sub-heading text-base/7 font-semibold text-teal-600">Loren Ipsun</p>
+                    <p class="sub-heading text-base/7 font-semibold text-rose-600">Loren Ipsun</p>
                     <h1 class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-cyan-800 sm:text-5xl">A better workflow</h1>
                     <p class="mt-6 text-xl/8 text-gray-700">Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at vitae feugiat egestas.</p>
                     <ul class="mt-6 space-y-2 text-cyan-800 font-bold">

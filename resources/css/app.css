@@ -82,7 +82,8 @@
         width: var(--h-border-w);
         border-style: solid;
         border-width: 3px 0 0;
-        border-color: #00bba7;
+        /*border-color: #00bba7;*/
+        border-color: oklch(0.586 0.253 17.585);
         padding: 4px 0;
     }
 }
