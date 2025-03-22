@@ -234,8 +234,9 @@
                     md:px-24 lg:px-8 lg:py-20"
         >
             <div class="flex flex-col items-center justify-between xl:flex-row">
-                <div class="w-full max-w-2xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12
+                <div class="relative w-full max-w-2xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12
                             bg-white/70 rounded-br-[15%] rounded-tl-[15%]
+                            border-b-8 border-teal-600
                             p-8 sm:p-10 lg:p-12"
                 >
                     <h1 data-aos="fade-up" data-aos-delay="100"
