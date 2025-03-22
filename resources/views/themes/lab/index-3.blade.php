@@ -71,8 +71,8 @@
 <body id="home" class="font-sans antialiased dark:bg-slate-900 dark:text-white/50">
 
 {{--Navigation--}}
-<nav class="py-2 bg-cyan-950 text-white w-full">
-    <div class="flex justify-between max-w-screen-xl mx-auto px-4 text-[13px]">
+<nav class="py-3 bg-gray-100 text-cyan-950 w-full">
+    <div class="flex justify-between max-w-screen-xl mx-auto px-4 text-[14px]">
         <div>
             <i class="fa-solid fa-phone-volume mr-2 text-teal-400"></i><span class="hidden sm:inline-block">Call Us:</span> +359 02 902-888
         </div>
