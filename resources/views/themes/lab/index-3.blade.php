@@ -229,15 +229,20 @@
                 <rect fill="url(#fdca20a0-aeb4-4caf-ba1b-4351eee42364)" width="52" height="24"></rect>
             </svg>
         </div>
-        <div class="relative px-4 py-16 mx-auto overflow-hidden sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div class="relative px-4 py-16 mx-auto overflow-hidden sm:max-w-xl
+                    md:max-w-full lg:max-w-screen-xl
+                    md:px-24 lg:px-8 lg:py-20"
+        >
             <div class="flex flex-col items-center justify-between xl:flex-row">
-                <div class="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
+                <div class="w-full max-w-2xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12
+                            bg-white/50 rounded-[10%] p-8 sm:p-10 lg:p-12"
+                >
                     <h1 data-aos="fade-up" data-aos-delay="100"
-                        class="mb-4 text-4xl font-bold tracking-tight leading-none text-white md:text-5xl lg:text-6xl"
+                        class="mb-4 text-4xl font-bold tracking-tight leading-none text-cyan-950 md:text-5xl lg:text-6xl"
                     >
-                        <span class="text-teal-400">Our Work Is</span> More Than Reaserch
+                        <span class="text-teal-700">Our Work Is</span> More Than Reaserch
                     </h1>
-                    <p class="max-w-xl mb-4 text-base text-gray-200 md:text-lg" data-aos="fade-up" data-aos-delay="200">
+                    <p class="max-w-xl mb-4 text-base text-cyan-950 md:text-lg" data-aos="fade-up" data-aos-delay="200">
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam, eaque ipsa quae.
                     </p>
                     <a data-aos="fade-up" data-aos-delay="200"
