@@ -235,7 +235,8 @@
         >
             <div class="flex flex-col items-center justify-between xl:flex-row">
                 <div class="w-full max-w-2xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12
-                            bg-white/50 rounded-[10%] p-8 sm:p-10 lg:p-12"
+                            bg-white/70 rounded-br-[15%] rounded-tl-[15%]
+                            p-8 sm:p-10 lg:p-12"
                 >
                     <h1 data-aos="fade-up" data-aos-delay="100"
                         class="mb-4 text-4xl font-bold tracking-tight leading-none text-cyan-950 md:text-5xl lg:text-6xl"
