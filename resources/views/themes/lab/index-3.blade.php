@@ -88,24 +88,25 @@
         }
 
         /*mobile divider*/
-        .custom-shape-divider-bottom-1742758078 {
+        .custom-shape-divider-bottom-1742758230 {
             position: absolute;
             bottom: 0;
             left: 0;
             width: 100%;
             overflow: hidden;
             line-height: 0;
+            transform: rotate(180deg);
         }
 
-        .custom-shape-divider-bottom-1742758078 svg {
+        .custom-shape-divider-bottom-1742758230 svg {
             position: relative;
             display: block;
-            width: calc(100% + 1.3px);
-            height: 100px;
+            width: calc(200% + 1.3px);
+            height: 64px;
             transform: rotateY(180deg);
         }
 
-        .custom-shape-divider-bottom-1742758078 .shape-fill {
+        .custom-shape-divider-bottom-1742758230 .shape-fill {
             fill: #FFFFFF;
         }
     </style>
@@ -267,11 +268,12 @@
             </svg>
         </div>
 {{--        Mobile Divider--}}
-        <div class="custom-shape-divider-bottom-1742758078">
+        <div class="custom-shape-divider-bottom-1742758230">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M741,116.23C291,117.43,0,27.57,0,6V120H1200V6C1200,27.93,1186.4,119.83,741,116.23Z" class="shape-fill"></path>
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
             </svg>
         </div>
+
         <div class="hidden sm:block">
             <svg viewBox="0 0 52 24" fill="currentColor"
                  class="opacity-30 absolute bottom-0 right-0 w-32 text-blue-gray-100 lg:w-32 sm:block"
