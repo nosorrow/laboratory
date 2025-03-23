@@ -248,7 +248,7 @@
         "
 {{--        style="background-image: linear-gradient(rgba(105,125,128,0.89), rgba(135,164,169,0.51) 100%), url('{{ url('images/hero-1.jpg') }}');--}}
 {{--        style="background-image: linear-gradient(90deg, rgba(10,37,45,0.89), rgba(255,255,255,0) 100%), url('{{ url('images/hero-1-2-3.jpg') }}');--}}
-        style="background-image: linear-gradient(120deg, var(--gradient-fade) 25%, rgba(5,51,69,0)), url('{{ url('images/hero-v2-6-ai.jpg') }}');
+        style="background-image: linear-gradient(120deg, var(--gradient-fade) 25%, rgba(5,51,69,0)), url('{{ url('images/hero-v2-6.jpg') }}');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
