@@ -306,9 +306,9 @@
                     </p>
                     <a data-aos="fade-up" data-aos-delay="200"
                         href="#services"
-                       class="inline-flex justify-center text-gray-900 items-center
-                            py-3 px-5 text-base font-medium text-center rounded-lg border
-                            border-white bg-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400 transition duration-200 ease-in-out"
+                       class="inline-flex justify-center text-teal-100 items-center
+                            py-3 px-5 text-base font-medium text-center rounded-xl
+                            bg-teal-600 hover:bg-teal-700 transition duration-200 ease-in-out"
                     >
                         Our Services
                     </a>
