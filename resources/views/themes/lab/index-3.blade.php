@@ -521,13 +521,13 @@
         class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6"
     >
         <div class="relative">
-            <img class="w-full rounded-2xl"
-                 src="{{ url('images/02.jpg') }}" alt="dashboard image"
+            <img class="w-full rounded-[2.5rem]"
+                 src="{{ url('images/research.jpg') }}" alt="dashboard image"
 {{--                 style="mask: linear-gradient(90deg, transparent, #54d9af 10%, #00655d 85%, transparent);"--}}
             >
-            <div class="w-full h-full bg-teal-500 absolute -right-5 top-5 -z-1 rounded-2xl"></div>
+{{--            <div class="w-full h-full bg-teal-500 absolute -right-5 top-5 -z-1 rounded-[2.5rem]"></div>--}}
         </div>
-        <div class="mt-6 md:mt-0">
+        <div class="mt-12 sm:mt-0">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
                 Let's create more tools and ideas that brings us together.
             </h2>
