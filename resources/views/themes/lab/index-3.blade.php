@@ -7,7 +7,7 @@
     <title>Demo Labs Company Site</title>
 
     <!-- Fonts -->
-    <link rel="stylesheet" href="{{ url('assets/fontawesome/css/all.css') }}">
+    <link rel="preload" as="style" href="{{ url('assets/fontawesome/css/all.css') }}">
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
