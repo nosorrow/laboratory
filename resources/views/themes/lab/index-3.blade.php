@@ -423,7 +423,7 @@
              class="-mt-12 -ml-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden relative"
         >
             <img class="w-100 max-w-none rounded-t-lx rounded-bl-[20%] bg-gray-900 ring-1 ring-gray-400/10 sm:w-[57rem]"
-                 src="{{ url('images/hero-v2-4.jpg') }}" alt=""
+                 src="{{ url('images/hero-v2-4.webp') }}" alt="image"
                  style="mask: linear-gradient(180deg, transparent, #54d9af 10%, #00655d 85%, transparent);"
 
             >
@@ -522,7 +522,7 @@
     >
         <div class="relative">
             <img class="w-full rounded-[2.5rem]"
-                 src="{{ url('images/research.jpg') }}" alt="dashboard image"
+                 src="{{ url('images/gta-1.webp') }}" alt="dashboard image"
 {{--                 style="mask: linear-gradient(90deg, transparent, #54d9af 10%, #00655d 85%, transparent);"--}}
             >
 {{--            <div class="w-full h-full bg-teal-500 absolute -right-5 top-5 -z-1 rounded-[2.5rem]"></div>--}}
