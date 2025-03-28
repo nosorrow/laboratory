@@ -7,8 +7,12 @@
     <title>Demo Labs Company Site</title>
 
     <!-- Fonts -->
-    <link rel="preload" href="{{ url('assets/fontawesome/css/all.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+{{--    <link rel="preload" href="{{ url('assets/fontawesome/css/all.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">--}}
+{{--    <noscript><link rel="stylesheet" href="{{ url('assets/fontawesome/css/all.css') }}"></noscript>--}}
+    <link rel="preload" href="{{ url('assets/fontawesome/css/all.css') }}" as="style">
+    <link rel="stylesheet" href="{{ url('assets/fontawesome/css/all.css') }}" media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="{{ url('assets/fontawesome/css/all.css') }}"></noscript>
+    
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link rel="preload" as="style" href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" />
 
