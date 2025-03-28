@@ -128,7 +128,7 @@
 <nav class="relative !z-9999 bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
         <a href="https://flowbite.com" class="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="{{ url('images/logo.png') }}" class="h-12" alt="Logo" />
+            <img src="{{ url('images/logo.webp') }}" class="h-12" alt="Logo" />
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
         </a>
         <button
@@ -250,7 +250,7 @@
 {{--        style="background-image: linear-gradient(rgba(105,125,128,0.89), rgba(135,164,169,0.51) 100%), url('{{ url('images/hero-1.jpg') }}');--}}
 {{--        style="background-image: linear-gradient(90deg, rgba(10,37,45,0.89), rgba(255,255,255,0) 100%), url('{{ url('images/hero-1-2-3.jpg') }}');--}}
         style="background-image: linear-gradient(120deg, var(--gradient-fade) 25%, rgba(5,51,69,0)),
-            url('{{ url('images/hero-v2-6.jpg') }}');
+            url('{{ url('images/hero-v2-6.webp') }}');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
