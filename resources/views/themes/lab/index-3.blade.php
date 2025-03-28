@@ -297,7 +297,7 @@
                             px-8 sm:px-10 lg:px-12 py-12 sm:py-16 lg:py-20"
                 >
                     <h1 data-aos="fade-up" data-aos-delay="100"
-                        class="mb-4 text-4xl font-bold tracking-tight leading-none text-cyan-950 md:text-5xl lg:text-6xl"
+                        class="mb-4 text-3xl font-bold tracking-tight leading-none text-cyan-950 md:text-5xl lg:text-6xl"
                     >
                         <span class="text-teal-700">Our Work Is</span> More Than Reaserch
                     </h1>
