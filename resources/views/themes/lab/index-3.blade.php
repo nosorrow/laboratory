@@ -7,8 +7,7 @@
     <title>Demo Labs Company Site</title>
 
     <!-- Fonts -->
-    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'"
-          href="{{ url('assets/fontawesome/css/all.css') }}">
+    <link rel="preload" href="{{ url('assets/fontawesome/css/all.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link rel="preload" as="style" href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" />
 
@@ -24,6 +23,12 @@
         }
         html {
             scroll-behavior: smooth;
+        }
+
+        @media (min-width: 640px) {
+            #hero > div {
+                background-image: linear-gradient(120deg, var(--gradient-fade) 25%, rgba(5,51,69,0)), url('{{ url('images/hero-v2-6.webp') }}') !important;
+            }
         }
 
         /*== #home Button  display on scroll ==*/
@@ -250,13 +255,6 @@
             background-repeat: no-repeat;
         "
     >
-        <style>
-            @media (min-width: 640px) {
-                #hero > div {
-                    background-image: linear-gradient(120deg, var(--gradient-fade) 25%, rgba(5,51,69,0)), url('{{ url('images/hero-v2-6.webp') }}') !important;
-                }
-            }
-        </style>
 {{--    <img src="{{ url('images/hero.jpg') }}" class="absolute inset-0 object-cover w-full h-full" alt="" />--}}
 {{--    <div--}}
 {{--        class="relative min-h-[400px] sm:min-h-[700px]--}}
