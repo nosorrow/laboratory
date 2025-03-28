@@ -242,20 +242,35 @@
 
 {{--Section Hero--}}
 <div id="hero" class="relative">
-{{--    <img src="{{ url('images/hero.jpg') }}" class="absolute inset-0 object-cover w-full h-full" alt="" />--}}
-    <div
-        class="relative min-h-[400px] sm:min-h-[700px]
-{{--                bg-blend-multiply--}}
-        "
-{{--        style="background-image: linear-gradient(rgba(105,125,128,0.89), rgba(135,164,169,0.51) 100%), url('{{ url('images/hero-1.jpg') }}');--}}
-{{--        style="background-image: linear-gradient(90deg, rgba(10,37,45,0.89), rgba(255,255,255,0) 100%), url('{{ url('images/hero-1-2-3.jpg') }}');--}}
-        style="background-image: linear-gradient(120deg, var(--gradient-fade) 25%, rgba(5,51,69,0)),
-            url('{{ url('images/hero-v2-6.webp') }}');
+        <div
+            class="relative min-h-[350px] sm:min-h-[700px]"
+        style="background-image: linear-gradient(120deg, var(--gradient-fade) 25%, rgba(5,51,69,0)), url('{{ url('images/hero-v2-6-mobile.jpg') }}');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
         "
     >
+        <style>
+            @media (min-width: 640px) {
+                #hero > div {
+                    background-image: linear-gradient(120deg, var(--gradient-fade) 25%, rgba(5,51,69,0)), url('{{ url('images/hero-v2-6.jpg') }}') !important;
+                }
+            }
+        </style>
+{{--    <img src="{{ url('images/hero.jpg') }}" class="absolute inset-0 object-cover w-full h-full" alt="" />--}}
+{{--    <div--}}
+{{--        class="relative min-h-[400px] sm:min-h-[700px]--}}
+{{--                bg-blend-multiply--}}
+{{--        "--}}
+{{--        style="background-image: linear-gradient(rgba(105,125,128,0.89), rgba(135,164,169,0.51) 100%), url('{{ url('images/hero-1.jpg') }}');--}}
+{{--        style="background-image: linear-gradient(90deg, rgba(10,37,45,0.89), rgba(255,255,255,0) 100%), url('{{ url('images/hero-1-2-3.jpg') }}');--}}
+{{--        style="background-image: linear-gradient(120deg, var(--gradient-fade) 25%, rgba(5,51,69,0)),--}}
+{{--            url('{{ url('images/hero-v2-6.webp') }}');--}}
+{{--            background-size: cover;--}}
+{{--            background-position: center;--}}
+{{--            background-repeat: no-repeat;--}}
+{{--        "--}}
+{{--    >--}}
 {{--        <svg class="absolute -bottom-1 text-white" viewBox="0 0 1160 163">--}}
 {{--            <path--}}
 {{--                fill="#fff"--}}
