@@ -244,7 +244,7 @@
 <div id="hero" class="relative">
         <div
             class="relative min-h-[350px] sm:min-h-[700px]"
-        style="background-image: linear-gradient(120deg, var(--gradient-fade) 25%, rgba(5,51,69,0)), url('{{ url('images/hero-v2-6-mobile.jpg') }}');
+        style="background-image: linear-gradient(120deg, var(--gradient-fade) 25%, rgba(5,51,69,0)), url('{{ url('images/hero-v2-6-mobile.webp') }}');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -253,7 +253,7 @@
         <style>
             @media (min-width: 640px) {
                 #hero > div {
-                    background-image: linear-gradient(120deg, var(--gradient-fade) 25%, rgba(5,51,69,0)), url('{{ url('images/hero-v2-6.jpg') }}') !important;
+                    background-image: linear-gradient(120deg, var(--gradient-fade) 25%, rgba(5,51,69,0)), url('{{ url('images/hero-v2-6.webp') }}') !important;
                 }
             }
         </style>
