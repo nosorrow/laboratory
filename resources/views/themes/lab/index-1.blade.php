@@ -65,6 +65,7 @@
 <body id="home" class="font-sans antialiased dark:bg-slate-900 dark:text-white/50">
 
 {{--Navigation--}}
+<x-top-navbar phone="+1 234-567-890" hours="8:00am - 5:00pm" />
 <nav class="py-3 bg-gray-100 text-cyan-950 w-full">
     <div class="flex justify-between max-w-screen-xl mx-auto px-4 text-[14px]">
         <div>

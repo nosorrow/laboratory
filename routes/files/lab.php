@@ -9,3 +9,7 @@ Route::get('/theme/lab', function () {
 Route::get('/theme/lab-2', function () {
     return view('themes.lab.index-2');
 })->name('theme.lab-2');
+
+Route::get('/theme/lab-1', function () {
+    return view('themes.lab.index-1');
+})->name('theme.lab-1');
