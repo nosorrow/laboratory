@@ -154,7 +154,7 @@
                 </li>
                 <li>
                     <button id="mega-menu-full-cta-dropdown-button"
-{{--                            data-collapse-toggle="mega-menu-full-cta-dropdown" data-dropdown-placement="bottom"--}}
+{{--                        data-collapse-toggle="mega-menu-full-cta-dropdown" data-dropdown-placement="bottom"--}}
                             class="flex items-center justify-between w-full py-2 md:py-3 px-3 font-medium text-cyan-800 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-cyan-600 md:p-0 dark:text-white md:dark:hover:text-cyan-500 dark:hover:bg-gray-700 dark:hover:text-cyan-500 md:dark:hover:bg-transparent dark:border-gray-700">
                         Services
                         <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
@@ -248,7 +248,8 @@
         "
 {{--        style="background-image: linear-gradient(rgba(105,125,128,0.89), rgba(135,164,169,0.51) 100%), url('{{ url('images/hero-1.jpg') }}');--}}
 {{--        style="background-image: linear-gradient(90deg, rgba(10,37,45,0.89), rgba(255,255,255,0) 100%), url('{{ url('images/hero-1-2-3.jpg') }}');--}}
-        style="background-image: linear-gradient(120deg, var(--gradient-fade) 25%, rgba(5,51,69,0)), url('{{ url('images/hero-v2-6.jpg') }}');
+        style="background-image: linear-gradient(120deg, var(--gradient-fade) 25%, rgba(5,51,69,0)),
+            url('{{ url('images/hero-v2-6.jpg') }}');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
