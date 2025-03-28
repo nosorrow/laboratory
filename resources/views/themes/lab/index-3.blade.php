@@ -7,9 +7,10 @@
     <title>Demo Labs Company Site</title>
 
     <!-- Fonts -->
-    <link rel="preload" as="style" href="{{ url('assets/fontawesome/css/all.css') }}">
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'"
+          href="{{ url('assets/fontawesome/css/all.css') }}">
     <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+    <link rel="preload" as="style" href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" />
 
     <!-- Styles / Scripts -->
     @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
@@ -542,7 +543,7 @@
 {{--Contact Section--}}
 <section id="contact" class="relative bg-transparent dark:bg-gray-900">
     <div class="absolute top-0 left-0 w-1/2 h-1/2 lg:w-full lg:h-full"
-        style="background-image: url('{{ url('images/shape-3.png') }}'); background-position: left; background-repeat: no-repeat; z-index: -1;
+        style="background-image: url('{{ url('images/shape-3.webp') }}'); background-position: left; background-repeat: no-repeat; z-index: -1;
         "
     ></div>
     <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
@@ -588,7 +589,7 @@
         <div class="md:flex md:justify-between">
             <div class="mb-6 md:mb-0">
                 <a href="{{ url('/') }}" class="flex items-center">
-                    <img src="{{ url('images/logo.png') }}" class="mr-3 h-12" alt="FlowBite Logo" />
+                    <img src="{{ url('images/logo.webp') }}" class="mr-3 h-12" alt="FlowBite Logo" />
                     <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
                 </a>
             </div>
