@@ -528,10 +528,10 @@
 {{--            <div class="w-full h-full bg-teal-500 absolute -right-5 top-5 -z-1 rounded-[2.5rem]"></div>--}}
         </div>
         <div class="mt-10 sm:mt-0">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-cyan-950 dark:text-white">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-cyan-800 dark:text-white">
                 Let's create more tools and ideas that brings us together.
             </h2>
-            <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
+            <p class="mb-6 font-light text-gray-950 md:text-lg dark:text-gray-200">
                 Etiam sodales nunc sit amet leo ultrices, quis sagittis tortor tempor. Mauris tristique nulla eu semper tempus.
                 Sed lacinia neque vitae malesuada dignissim. Aliquam efficitur tincidunt justo quis euismod.
             </p>
