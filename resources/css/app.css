@@ -4,8 +4,11 @@
 
 @import 'tailwindcss';
 
+@import "flowbite/src/themes/default";
+
 @plugin '@tailwindcss/forms';
 @plugin "flowbite/plugin";
+@plugin "flowbite-typography";
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../node_modules/flowbite/**/*.js';

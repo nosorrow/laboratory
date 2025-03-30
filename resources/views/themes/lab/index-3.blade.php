@@ -7,14 +7,10 @@
     <title>Demo Labs Company Site</title>
 
     <!-- Fonts -->
-{{--    <link rel="preload" href="{{ url('assets/fontawesome/css/all.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">--}}
-{{--    <noscript><link rel="stylesheet" href="{{ url('assets/fontawesome/css/all.css') }}"></noscript>--}}
-    <link rel="preload" href="{{ url('assets/fontawesome/css/all.css') }}" as="style">
-    <link rel="stylesheet" href="{{ url('assets/fontawesome/css/all.css') }}" media="print" onload="this.media='all'">
+    <link rel="preload" href="{{ url('assets/fontawesome/css/all.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="{{ url('assets/fontawesome/css/all.css') }}"></noscript>
-    
-    <link rel="preconnect" href="https://fonts.bunny.net">
-    <link rel="preload" as="style" href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" />
+{{--    <link rel="preconnect" href="https://fonts.bunny.net">--}}
+{{--    <link rel="preload" as="style" href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" />--}}
 
     <!-- Styles / Scripts -->
     @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
@@ -582,6 +578,7 @@
                 <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
                 <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-cyan-500 focus:border-cyan-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-cyan-500 dark:focus:border-cyan-500" placeholder="Leave a comment..."></textarea>
             </div>
+
             <button type="submit"
                     class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg
                            bg-teal-500 sm:w-fit hover:bg-teal-600 transition duration-300 ease-in-out
@@ -593,7 +590,6 @@
         </form>
     </div>
 </section>
-
 {{--Go home--}}
 <div id="gohome" class="home">
     <a id="gohomelink" href="#" title="Home">
@@ -671,6 +667,7 @@
         </div>
     </div>
 </footer>
+@stack('js')
 <script>
     // window.addEventListener('load', () => {
     //     AOS.init({
@@ -743,7 +740,6 @@
         });
 
     });
-
 
 </script>
 </body>
