@@ -416,7 +416,7 @@
                         Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem.
                         At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at vitae feugiat egestas.
                     </p>
-                    <ul class="mt-6 space-y-2 text-cyan-800 font-bold">
+                    <ul class="mt-6 space-y-2 text-cyan-800 text-xl/8">
                         <li><i class="fa-solid fa-circle-check mr-2 text-lg text-teal-500"></i>
                             Led by Passionate Experts</li>
                         <li><i class="fa-solid fa-circle-check mr-2 text-lg text-teal-500"></i>
@@ -437,9 +437,9 @@
 {{--            style="mask: linear-gradient(90deg, transparent, #54d9af 10%, #00655d 85%, transparent);"--}}
              class="-mt-12 -ml-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden relative"
         >
-            <img class="w-100 max-w-none rounded-t-lx rounded-bl-[20%] bg-gray-900 ring-1 ring-gray-400/10 sm:w-[57rem]"
-                 src="{{ url('images/hero-v2-4.webp') }}" alt="image"
-                 style="mask: linear-gradient(180deg, transparent, #54d9af 10%, #00655d 85%, transparent);"
+            <img class="w-100 max-w-none rounded-tl-[20%] rounded-bl-[20%] bg-gray-900 ring-1 ring-gray-400/10 sm:w-[53rem]"
+                 src="{{ url('images/content.webp') }}" alt="image"
+{{--                 style="mask: linear-gradient(180deg, transparent, #54d9af 10%, #00655d 85%, transparent);"--}}
 
             >
         </div>
