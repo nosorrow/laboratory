@@ -8,4 +8,15 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    build: {
+        rollupOptions: {
+            output: {
+                manualChunks: {
+                    alpine: ['alpinejs'],
+                    flowbite: ['flowbite'],
+                    aos: ['aos']
+                }
+            }
+        }
+    }
 });
