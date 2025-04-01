@@ -66,16 +66,16 @@
 
 {{--Navigation--}}
 <x-top-navbar phone="+1 234-567-890" hours="8:00am - 5:00pm" />
-<nav class="py-3 bg-gray-100 text-cyan-950 w-full">
-    <div class="flex justify-between max-w-screen-xl mx-auto px-4 text-[14px]">
-        <div>
-            <i class="fa-solid fa-phone-volume mr-2 text-teal-400"></i><span class="hidden sm:inline-block">Call Us:</span> +359 02 902-888
-        </div>
-        <div>
-            <i class="fa-solid fa-clock mr-2 text-teal-400"></i><span class="hidden sm:inline-block">Every weekday:</span> 9:00am - 6:00pm
-        </div>
-    </div>
-</nav>
+{{--<nav class="py-3 bg-gray-100 text-cyan-950 w-full">--}}
+{{--    <div class="flex justify-between max-w-screen-xl mx-auto px-4 text-[14px]">--}}
+{{--        <div>--}}
+{{--            <i class="fa-solid fa-phone-volume mr-2 text-teal-400"></i><span class="hidden sm:inline-block">Call Us:</span> +359 02 902-888--}}
+{{--        </div>--}}
+{{--        <div>--}}
+{{--            <i class="fa-solid fa-clock mr-2 text-teal-400"></i><span class="hidden sm:inline-block">Every weekday:</span> 9:00am - 6:00pm--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</nav>--}}
 <nav class="relative !z-9999 bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
         <a href="https://flowbite.com" class="flex items-center space-x-3 rtl:space-x-reverse">
