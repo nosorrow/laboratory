@@ -870,68 +870,68 @@
     //     })
     // });
 
-    // document.addEventListener('DOMContentLoaded', function() {
-    //     const toggleButton = document.querySelector('[data-collapse-toggle="mega-menu-full-cta"]');
-    //     const hamburgerIcon = document.getElementById('hamburger-icon');
-    //     const closeIcon = document.getElementById('close-icon');
-    //
-    //     toggleButton.addEventListener('click', function() {
-    //         const isExpanded = toggleButton.getAttribute('aria-expanded') === 'true';
-    //
-    //         // Превключване на иконите
-    //         if (isExpanded) {
-    //             hamburgerIcon.classList.remove('hidden');
-    //             closeIcon.classList.add('hidden');
-    //         } else {
-    //             hamburgerIcon.classList.add('hidden');
-    //             closeIcon.classList.remove('hidden');
-    //         }
-    //     });
-    // });
-    //
-    // document.addEventListener("DOMContentLoaded", function () {
-    //     const height = document.getElementById("hero").clientHeight;
-    //     window.addEventListener("scroll", function () {
-    //         const goHomeButton = document.getElementById("gohome");
-    //         if (window.scrollY <= height - 45) {
-    //             goHomeButton.style.display = "none";
-    //         } else {
-    //             goHomeButton.style.display = "block";
-    //         }
-    //     });
-    //
-    //     document.addEventListener('click', function(event) {
-    //         const megaMenu = document.getElementById('mega-menu-full-cta-dropdown');
-    //         const megaMenuButton = document.getElementById('mega-menu-full-cta-dropdown-button');
-    //
-    //         // Проверяваме дали кликнатият елемент е извън менюто и бутона
-    //         if (!megaMenu.contains(event.target) && !megaMenuButton.contains(event.target)) {
-    //             megaMenu.classList.add('hidden');
-    //             megaMenuButton.setAttribute('aria-expanded', 'false'); // Добавяме aria-expanded="false"
-    //         }
-    //     });
-    //
-    //     document.getElementById('mega-menu-full-cta-dropdown-button').addEventListener('click', function(event) {
-    //         const megaMenu = document.getElementById('mega-menu-full-cta-dropdown');
-    //         const megaMenuButton = document.getElementById('mega-menu-full-cta-dropdown-button');
-    //
-    //         const isExpanded = megaMenuButton.getAttribute('aria-expanded') === 'true';
-    //
-    //         // Ако менюто е скрито, го показваме и задаваме aria-expanded="true"
-    //         if (megaMenu.classList.contains('hidden')) {
-    //             megaMenu.classList.remove('hidden');
-    //             megaMenuButton.setAttribute('aria-expanded', 'true');
-    //         } else {
-    //             // Ако менюто е видимо, го скриваме и задаваме aria-expanded="false"
-    //             megaMenu.classList.add('hidden');
-    //             megaMenuButton.setAttribute('aria-expanded', 'false');
-    //         }
-    //
-    //         // Спираме разпространяването на събитието, за да предотвратим повторното задействане
-    //         event.stopPropagation();
-    //     });
-    //
-    // });
+    document.addEventListener('DOMContentLoaded', function() {
+        const toggleButton = document.querySelector('[data-collapse-toggle="mega-menu-full-cta"]');
+        const hamburgerIcon = document.getElementById('hamburger-icon');
+        const closeIcon = document.getElementById('close-icon');
+
+        toggleButton.addEventListener('click', function() {
+            const isExpanded = toggleButton.getAttribute('aria-expanded') === 'true';
+
+            // Превключване на иконите
+            if (isExpanded) {
+                hamburgerIcon.classList.remove('hidden');
+                closeIcon.classList.add('hidden');
+            } else {
+                hamburgerIcon.classList.add('hidden');
+                closeIcon.classList.remove('hidden');
+            }
+        });
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const height = document.getElementById("hero").clientHeight;
+        window.addEventListener("scroll", function () {
+            const goHomeButton = document.getElementById("gohome");
+            if (window.scrollY <= height - 45) {
+                goHomeButton.style.display = "none";
+            } else {
+                goHomeButton.style.display = "block";
+            }
+        });
+
+        document.addEventListener('click', function(event) {
+            const megaMenu = document.getElementById('mega-menu-full-cta-dropdown');
+            const megaMenuButton = document.getElementById('mega-menu-full-cta-dropdown-button');
+
+            // Проверяваме дали кликнатият елемент е извън менюто и бутона
+            if (!megaMenu.contains(event.target) && !megaMenuButton.contains(event.target)) {
+                megaMenu.classList.add('hidden');
+                megaMenuButton.setAttribute('aria-expanded', 'false'); // Добавяме aria-expanded="false"
+            }
+        });
+
+        document.getElementById('mega-menu-full-cta-dropdown-button').addEventListener('click', function(event) {
+            const megaMenu = document.getElementById('mega-menu-full-cta-dropdown');
+            const megaMenuButton = document.getElementById('mega-menu-full-cta-dropdown-button');
+
+            const isExpanded = megaMenuButton.getAttribute('aria-expanded') === 'true';
+
+            // Ако менюто е скрито, го показваме и задаваме aria-expanded="true"
+            if (megaMenu.classList.contains('hidden')) {
+                megaMenu.classList.remove('hidden');
+                megaMenuButton.setAttribute('aria-expanded', 'true');
+            } else {
+                // Ако менюто е видимо, го скриваме и задаваме aria-expanded="false"
+                megaMenu.classList.add('hidden');
+                megaMenuButton.setAttribute('aria-expanded', 'false');
+            }
+
+            // Спираме разпространяването на събитието, за да предотвратим повторното задействане
+            event.stopPropagation();
+        });
+
+    });
 
 </script>
 </body>
