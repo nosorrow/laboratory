@@ -1,46 +1,32 @@
 {
-  "_alpine-uXcmRlT3.js": {
-    "file": "assets/alpine-uXcmRlT3.js",
-    "name": "alpine"
-  },
-  "_aos-C01sy4Ta.js": {
-    "file": "assets/aos-C01sy4Ta.js",
+  "_aos-B1cAUJjo.js": {
+    "file": "assets/aos-B1cAUJjo.js",
     "name": "aos",
-    "isDynamicEntry": true,
-    "imports": [
-      "_aos-JupvBk5m.js"
-    ]
-  },
-  "_aos-JupvBk5m.js": {
-    "file": "assets/aos-JupvBk5m.js",
-    "name": "aos"
+    "isDynamicEntry": true
   },
   "node_modules/aos/dist/aos.css": {
     "file": "assets/aos-DvB2Xm2x.css",
     "src": "node_modules/aos/dist/aos.css"
   },
   "node_modules/flowbite/lib/esm/index.js": {
-    "file": "assets/flowbite-DU_32KmA.js",
-    "name": "flowbite",
+    "file": "assets/index-DU_32KmA.js",
+    "name": "index",
     "src": "node_modules/flowbite/lib/esm/index.js",
     "isDynamicEntry": true
   },
   "resources/css/app.css": {
-    "file": "assets/app-Dp6tlDBH.css",
+    "file": "assets/app-DPJuLpxn.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
   "resources/js/app.js": {
-    "file": "assets/app-Cg8g_mnd.js",
+    "file": "assets/app--wj2h-t5.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
-    "imports": [
-      "_alpine-uXcmRlT3.js"
-    ],
     "dynamicImports": [
       "node_modules/flowbite/lib/esm/index.js",
-      "_aos-C01sy4Ta.js"
+      "_aos-B1cAUJjo.js"
     ]
   }
 }

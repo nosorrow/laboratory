@@ -7,16 +7,16 @@ export default defineConfig({
             input: ['resources/css/app.css', 'resources/js/app.js'],
             refresh: true,
         }),
-    ],
-    build: {
-        rollupOptions: {
-            output: {
-                manualChunks: {
-                    alpine: ['alpinejs'],
-                    flowbite: ['flowbite'],
-                    aos: ['aos']
-                }
-            }
-        }
-    }
+    ]
+    // build: {
+    //     rollupOptions: {
+    //         output: {
+    //             manualChunks: {
+    //                 alpine: ['alpinejs'],
+    //                 flowbite: ['flowbite'],
+    //                 aos: ['aos']
+    //             }
+    //         }
+    //     }
+    // }
 });
