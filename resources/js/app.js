@@ -1,14 +1,14 @@
 import './bootstrap';
 import Alpine from 'alpinejs';
-
+import 'flowbite';
 window.Alpine = Alpine;
 Alpine.start();
 
 // Lazy load AOS и Flowbite
 document.addEventListener('DOMContentLoaded', () => {
-    import('flowbite').then(() => {
-        console.log('Flowbite loaded');
-    });
+    // import('flowbite').then(() => {
+    //     console.log('Flowbite loaded');
+    // });
 
     import('aos').then((AOS) => {
         import('aos/dist/aos.css');

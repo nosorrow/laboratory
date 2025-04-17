@@ -8,24 +8,17 @@
     "file": "assets/aos-DvB2Xm2x.css",
     "src": "node_modules/aos/dist/aos.css"
   },
-  "node_modules/flowbite/lib/esm/index.js": {
-    "file": "assets/index-DU_32KmA.js",
-    "name": "index",
-    "src": "node_modules/flowbite/lib/esm/index.js",
-    "isDynamicEntry": true
-  },
   "resources/css/app.css": {
-    "file": "assets/app-DPJuLpxn.css",
+    "file": "assets/app-Dp6tlDBH.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
   "resources/js/app.js": {
-    "file": "assets/app--wj2h-t5.js",
+    "file": "assets/app-CmGFau2Q.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
     "dynamicImports": [
-      "node_modules/flowbite/lib/esm/index.js",
       "_aos-B1cAUJjo.js"
     ]
   }
